@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'DidactGothic-Regular';
+    src: url('../fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../fonts/Comfortaa-Bold.ttf') format('truetype');
+}
+html, body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'DidactGothic-Regular', sans-serif;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*General*/
+a,
+a svg,
+a img,
+button{
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+}
