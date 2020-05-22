@@ -1,0 +1,67 @@
+.heading-bm-1{
+    font-family: "Comfortaa-Bold", sans-serif;
+    font-size: 48px;
+    line-height: 54px;
+    color: #071146;
+}
+.heading-bm-2{
+    font-family: "Comfortaa-Bold", sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    color: #071146;
+}
+.subtitle-s-3{
+    font-family: "Comfortaa-Bold", sans-serif;
+    font-size: 21px;
+    line-height: 23px;
+    color: #071146;
+}
+.btn{
+    display: inline-block;
+    width: 165px;
+    height: 40px;
+    padding: 9px 0;
+    border: 1px solid #0052CC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: "DidactGothic-Regular",sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #0052CC;
+}
+.btn:hover{
+    padding: 8px 0;
+    border: 2px solid #0052CC;
+    color: #0052CC;
+}
+.btn:focus{
+    padding: 8px 0;
+    background-color: #0052CC;
+    border: 2px solid #0052CC;
+    color: #ffffff;
+}
+.btn--dark{
+    border: 1px solid #071146;
+    color: #071146;
+}
+.btn span{
+    display: inline-block;
+}
+.btn__arrow{
+    width: 18px;
+    height: 8px;
+    background: transparent url('../imgs/general/btn-arrow.png') center center no-repeat;
+}
+.btn--dark .btn__arrow{
+    background: transparent url('../imgs/general/btn-arrow-dark.png') center center no-repeat;
+}
+.btn--dark:hover .btn__arrow{
+    background: transparent url('../imgs/general/btn-arrow.png') center center no-repeat;
+}
+.btn__arrow{
+    margin-left: 13px;
+}
+.btn:focus .btn__arrow{
+    background: transparent url('../imgs/general/btn-arrow-white.png') center center no-repeat;
+}
