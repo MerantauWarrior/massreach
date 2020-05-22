@@ -1,0 +1,18 @@
+<svg width="82" height="96" viewBox="0 0 82 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M70.67 9.02389L18.0503 8.8494C12.8809 8.83226 8.67641 13.009 8.65927 18.1783L8.43928 84.5179C8.42214 89.6873 12.5988 93.8918 17.7682 93.9089L70.3879 94.0834C75.5573 94.1006 79.7617 89.9239 79.7789 84.7545L79.9989 18.4149C80.016 13.2455 75.8393 9.04103 70.67 9.02389Z" fill="#95E196"/>
+<path d="M70.256 1.19249L11.5863 0.997934C5.89229 0.979052 1.26106 5.57966 1.24218 11.2737L1.00252 83.5433C0.98364 89.2373 5.58425 93.8685 11.2783 93.8874L69.948 94.082C75.642 94.1009 80.2732 89.5003 80.2921 83.8062L80.5317 11.5366C80.5506 5.8426 75.95 1.21137 70.256 1.19249Z" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.23 24.3401H22.88C21.2232 24.3401 19.88 25.6832 19.88 27.3401V33.6901C19.88 35.3469 21.2232 36.6901 22.88 36.6901H29.23C30.8869 36.6901 32.23 35.3469 32.23 33.6901V27.3401C32.23 25.6832 30.8869 24.3401 29.23 24.3401Z" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.23 45.67H22.88C21.2232 45.67 19.88 47.0132 19.88 48.67V55.02C19.88 56.6769 21.2232 58.02 22.88 58.02H29.23C30.8869 58.02 32.23 56.6769 32.23 55.02V48.67C32.23 47.0132 30.8869 45.67 29.23 45.67Z" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.38 51.8501H68.68" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.23 66.24H22.88C21.2232 66.24 19.88 67.5831 19.88 69.24V75.59C19.88 77.2468 21.2232 78.59 22.88 78.59H29.23C30.8869 78.59 32.23 77.2468 32.23 75.59V69.24C32.23 67.5831 30.8869 66.24 29.23 66.24Z" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.38 72.42H52.68" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.38 30.52H68.68" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M59.47 89.05L50.93 68.14L71.76 76.77L62.08 79.37L59.47 89.05Z" stroke="#071146" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="81.54" height="95.09" fill="white"/>
+</clipPath>
+</defs>
+</svg>
