@@ -18,9 +18,12 @@
       <div class="header__inner">
         <div class="clear">
           <a href="#" class="header-logo">
-            <img src="assets/imgs/general/header/logo-icon.png" alt="logo" class="header-logo__icon">
-            <img src="assets/imgs/general/header/logo-text.png" alt="text" class="header-logo__text">
+            <img src="assets/imgs/general/header/logo-icon.svg" alt="logo" class="header-logo__icon">
+            <img src="assets/imgs/general/header/logo-text.svg" alt="text" class="header-logo__text">
           </a>
+          <div class="header__mobile-menu">
+            <span></span><span></span><span></span>
+          </div>
           <div class="header-navigation">
             <div class="header-menu">
               <ul class="header-menu__list clear">
@@ -50,7 +53,71 @@
     </div>
   </div>
 
-  <div class="product-top">asd</div>
+  <div class="product-info"
+       style="background-color: #B6E2DF;background-image: url('assets/imgs/products/prod-1/prod-1-bg.png');
+    background-position: center 38px;">
+    <div class="container">
+      <div class="breadcrumbs">
+        <div class="breadcrumbs__item">
+          <a href="#" class="breadcrumbs__link"><img src="assets/imgs/general/breadcrumbs-home.svg" alt=""></a>
+          <div class="breadcrumbs__arrow"></div>
+        </div>
+        <div class="breadcrumbs__item">
+          <a href="#" class="breadcrumbs__link">О программе</a>
+          <div class="breadcrumbs__arrow"></div>
+        </div>
+        <div class="breadcrumbs__item">
+          <a href="#" class="breadcrumbs__link">Mailing Master</a>
+        </div>
+      </div>
+      <div class="product-info__content">
+        <h1 class="heading-bm-1 product-info__heading-1">Mailing Master</h1>
+        <h3 class="heading-bm-3 product-info__heading-3">программа для рассылки писем на email</h3>
+        <div class="product-info__content-text">Управляйте списками и отправляйте email в любых объемах</div>
+        <div class="product-info__items">
+          <div class="product-info-item">
+            <div class="product-info-item__img"><img src="assets/imgs/products/prod-1/info-1.svg" alt=""></div>
+            <div class="product-info-item__title">Рассылка без границ</div>
+            <div class="product-info-item__description">Делайте рассылку любому количеству получателей, ведь MassReach
+              MailMaster не ограничивает в размерах списков и количестве отправок.
+            </div>
+          </div>
+          <div class="product-info-item">
+            <div class="product-info-item__img"><img src="assets/imgs/products/prod-1/info-2.svg" alt=""></div>
+            <div class="product-info-item__title">Управление списками</div>
+            <div class="product-info-item__description">Добавляйте новые адреса и удаляйте их, сортируйте и
+              перемешивайте список. Больше операций есть в программе List Editor.
+            </div>
+          </div>
+          <div class="product-info-item">
+            <div class="product-info-item__img"><img src="assets/imgs/products/prod-1/info-3.svg" alt=""></div>
+            <div class="product-info-item__title">Готовые шаблоны</div>
+            <div class="product-info-item__description">В программу встроены бесплатные html-шаблоны для email рассылок.
+              Лучшее решение для тех, у кого нет времени создавать свой дизайн.
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn-double">
+          <span class="btn-double__inner">Попробовать бесплатно
+            <span class="btn-double__arrow">
+              <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                    fill=""/>
+                </svg>
+            </span>
+          </span>
+          <span class="btn-double__backdrop"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="product-info__triangle">
+    <svg viewBox="0 0 1920 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0H1920L960 223L0 0Z" fill="#B6E2DF"/>
+    </svg>
+  </div>
+
   <div class="product-about">
     <div class="container">
       <h2 class="heading-bm-2 product-about__heading">Богатый функционал MassReach Mailing Master</h2>
@@ -101,8 +168,131 @@
       </div>
     </div>
   </div>
-  <div class="cta">asd</div>
-  <div class="faqs">asd</div>
+
+  <div class="product-cta">
+    <div class="container">
+      <h2 class="heading-bm-2 product-cta__heading">Ready to start?</h2>
+      <div class="product-cta__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt
+        ut labore et dolore magna aliqua.
+      </div>
+      <form action="" method="get" class="product-cta__form">
+        <input type="email" name="emailTry" id="emailTry" class="inp product-cta__form-inp"
+               placeholder="ivanov@gmail.com">
+        <button class="btn-double product-cta__form-btn" type="submit">
+          <span class="btn-double__inner">Попробовать бесплатно
+            <span class="btn-double__arrow">
+              <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                    fill=""/>
+                </svg>
+            </span>
+          </span>
+          <span class="btn-double__backdrop"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="faqs">
+    <div class="container-md">
+      <h2 class="heading-bm-2 faqs__heading">FAQ по работе с Mailing Master</h2>
+      <div class="faqs__items">
+        <div class="faqs-item faqs-item_opened">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Для чего используется MassReach Mailing Master?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Каковы основные возможности Mailing Master?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Каковы основные достоинства программы?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Каковы возможности настройки программы?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Для чего используется MassReach Mailing Master?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Каковы основные возможности Mailing Master?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Каковы основные достоинства программы?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Каковы возможности настройки программы?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+        <div class="faqs-item">
+          <div class="faqs-item__top">
+            <div class="faqs-item__icon"></div>
+            <div class="faqs-item__title">Каковы возможности настройки программы?</div>
+            <div class="faqs-item__arrow"></div>
+          </div>
+          <div class="faqs-item__content">Программа используется для email маркетинга и холодных рассылок. При грамотном
+            подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="other-products">
     <div class="container">
       <div class="heading-bm-2 other-products__heading">Узнайте больше про другие компоненты</div>
