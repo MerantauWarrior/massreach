@@ -35,8 +35,12 @@
         padding: 60px 0;
     }
     .faqs-item__title{
+        padding: 0 20px;
         font-size: 18px;
         line-height: 22px;
+    }
+    .faqs-item__content{
+        padding-left: 35px;
     }
     .other-products{
         padding: 60px 0;
