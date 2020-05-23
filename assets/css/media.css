@@ -98,3 +98,25 @@
         position: static;
     }
 }
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .header-logo__text{
+       display: none;
+    }
+    .header-menu__list-item{
+        margin-right: 5px;
+    }
+    .footer-col{
+        width: 160px;
+    }
+    .footer-col:last-child{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .footer-socials{
+        display: inline-block;
+        vertical-align: middle;
+        width: 250px;
+        margin-top: 0;
+    }
+}
