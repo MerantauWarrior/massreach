@@ -232,17 +232,18 @@ ul{
 }
 .footer-socials__link{
     display: inline-block;
+    height: 20px;
     margin-right: 39px;
+    overflow: hidden;
 }
 .footer-socials__link:last-child{
     margin-right: 0;
 }
-.footer-socials__link svg{
-    display: block;
-    fill: #0052CC;
+.footer-socials__link img{
+    height: 20px;
 }
-.footer-socials__link:hover svg{
-    fill: #1DA1F2;
+.footer-socials__link:hover img:first-child{
+    margin-top: -20px;
 }
 .copyrights{
     margin-top: 20px;

@@ -98,12 +98,23 @@
         position: static;
     }
 }
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .product-info-item{
+        margin: 0 20px;
+    }
+}
 @media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
     .header-logo__text{
        display: none;
     }
     .header-menu__list-item{
         margin-right: 5px;
+    }
+    .product-about__col{
+        padding: 0 15px;
+    }
+    .product-info-item{
+        margin: 0 20px 30px 20px;
     }
     .footer-col{
         width: 160px;
