@@ -60,6 +60,9 @@
     .footer-socials{
         margin-top: 38px;
     }
+    .footer-socials__link{
+        margin-right: 35px;
+    }
     /*Header*/
     .header__inner{
         position: relative;
