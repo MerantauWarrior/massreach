@@ -3,7 +3,7 @@ $(document).ready(function () {
 //  Faqs
   $('.faqs-item__top').click(function () {
     $(this).parent().toggleClass('faqs-item_opened');
-    // $(this).parent().find('.faqs-item__content').slideToggle(250);
+    $('.faqs-item__top').not($(this)).parent().removeClass('faqs-item_opened');
   });
 //  Header mobile menu
   $('.header__mobile-menu').click(function () {
