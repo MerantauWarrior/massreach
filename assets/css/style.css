@@ -341,10 +341,15 @@ ul{
     text-align: center;
 }
 .product-info__heading-1{
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
     color: #0052CC;
 }
 .product-info__heading-3{
-    margin: 36px 0 48px 0;
+    width: 100%;
+    max-width: 750px;
+    margin: 36px auto 48px auto;
 }
 .product-info__items{
     margin: 58px 0;
