@@ -56,7 +56,7 @@ button{
     border: none;
     background-color: transparent;
 }
-ul{
+ul, ol{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -82,6 +82,39 @@ ul{
     content: "";
     display: table;
     clear: both;
+}
+.list ul,
+.list ol{
+    font-size: 16px;
+    line-height: 26px;
+    color: #071146;
+}
+.list ul li{
+    position: relative;
+    padding-left: 10px;
+}
+.list ul li:before{
+    content: "";
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #0052CC;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.list ol{
+    counter-reset: my-counter;
+}
+.list ol li{
+    counter-increment: my-counter;
+}
+.list ol li:before{
+    content: counter(my-counter) ". ";
+    font-weight: 500;
+    color: #1062AA;
 }
 /*Header*/
 .header__inner{
