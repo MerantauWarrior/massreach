@@ -459,6 +459,9 @@ ul, ol{
 .product-about__description{
     text-align: center;
 }
+.product-about__number{
+    color: #0052CC;
+}
 .product-about__description-inner{
     display: inline-block;
     width: 100%;
