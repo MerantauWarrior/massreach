@@ -193,6 +193,7 @@ ul, ol{
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: #071146;
+    z-index: 999;
 }
 .header-menu__dropdown:hover .header-submenu__list{
     display: block;
