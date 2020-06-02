@@ -1,4 +1,59 @@
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .product-info-item{
+        margin: 0 20px;
+    }
+    .product-all-item {
+        margin: 0 10px 50px 10px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .header-logo__text{
+       display: none;
+    }
+    .header-menu__list-item{
+        margin-right: 5px;
+    }
+    .product-about__col{
+        padding: 0 15px;
+    }
+    .product-info-item{
+        margin: 0 20px 30px 20px;
+    }
+    .footer-col{
+        width: 160px;
+    }
+    .footer-col:last-child{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .footer-socials{
+        display: inline-block;
+        vertical-align: middle;
+        width: 250px;
+        margin-top: 0;
+    }
+}
 @media all and (max-width: 767px){
+    /*Products-all*/
+    .product-cta--prod-all{
+        padding: 75px 0;
+    }
+    .product-all-block{
+        padding-top: 75px;
+    }
+    .product-all-item{
+        max-width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .product-all-item__icon{
+        display: block;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .product-all-item__icon img{
+        margin: 0 auto;
+    }
     /*Products*/
     .product-info{
         padding-bottom: 40px;
@@ -82,6 +137,7 @@
         padding-bottom: 15px;
         background-color: #fff;
         text-align: center;
+        z-index: 99;
     }
     .header-menu{
         display: block;
@@ -99,38 +155,5 @@
     }
     .header-submenu__list{
         position: static;
-    }
-}
-@media all and (min-width: 768px) and (max-width: 1024px){
-    .product-info-item{
-        margin: 0 20px;
-    }
-}
-@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
-    .header-logo__text{
-       display: none;
-    }
-    .header-menu__list-item{
-        margin-right: 5px;
-    }
-    .product-about__col{
-        padding: 0 15px;
-    }
-    .product-info-item{
-        margin: 0 20px 30px 20px;
-    }
-    .footer-col{
-        width: 160px;
-    }
-    .footer-col:last-child{
-        width: 100%;
-        margin: 20px 0;
-        text-align: center;
-    }
-    .footer-socials{
-        display: inline-block;
-        vertical-align: middle;
-        width: 250px;
-        margin-top: 0;
     }
 }

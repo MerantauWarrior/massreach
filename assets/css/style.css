@@ -576,3 +576,112 @@ ul, ol{
 .faqs-item_opened .faqs-item__content{
     display: block;
 }
+/*prod-all*/
+.product-all-block{
+    position: relative;
+    padding-top: 275px;
+}
+.product-all__triangle{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+.product-all__top{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product-all__icon,
+.product-all__top-title{
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-all__icon{
+    margin-right: 26px;
+}
+.product-all__product-all-items{
+    text-align: center;
+}
+.product-all-item{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 43px 50px 43px;
+    text-align: left;
+}
+.product-all-item__icon,
+.product-all-item__content{
+    display: inline-block;
+    vertical-align: top;
+}
+.product-all-item__icon{
+    max-width: 60px;
+}
+.product-all-item__content{
+    float: right;
+    width: 100%;
+    max-width: 360px;
+}
+.product-all-item__title{
+    margin-bottom: 25px;
+}
+.product-all-item__description{
+    font-size: 16px;
+    line-height: 26px;
+    color: #071146;
+}
+.product-all__bottom{
+    text-align: center;
+}
+.product-all__more{
+    display: inline-block;
+    font-family: "Comfortaa-Bold",sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0052CC;
+}
+.product-all__more span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-all__more span:first-child{
+    margin-right: 5px;
+}
+.product-cta--prod-all{
+    padding: 275px 0 136px 0;
+}
+.product-all-block-main{
+    padding-top: 86px;
+}
+.product-all-block-main__inner{
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+.product-all-heading-1{
+    margin-bottom: 42px;
+}
+.product-all-heading-1 span{
+    display: block;
+    color: #0052CC;
+}
+.product-all-block-main{
+    background-repeat: no-repeat;
+    background-position: calc(50% + 150px) 46px;
+}
+.product-all-block-main__text-1{
+    margin-bottom: 38px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #071146;
+}
+.product-all-block-main__text-2{
+    margin-bottom: 103px;
+    color: #0052CC;
+}
+.product-all-block-main__down{
+    display: inline-block;
+}
