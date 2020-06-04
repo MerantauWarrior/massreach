@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/css/ui.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/media.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
@@ -97,7 +98,10 @@
             </div>
           </div>
         </div>
-        <a href="#" class="btn-double">
+        <a href="#" class="btn-double" data-aos="fade-up" data-aos-offset="50"
+           data-aos-duration="800"
+           data-aos-easing="ease-in-out"
+           data-aos-once="true">
           <span class="btn-double__inner">Попробовать бесплатно
             <span class="btn-double__arrow">
               <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -125,7 +129,10 @@
         <div class="product-about__col">
           <img src="assets/imgs/products/prod-1/info-4.svg" alt="">
         </div>
-        <div class="product-about__col">
+        <div class="product-about__col" data-aos="fade-left" data-aos-offset="50"
+             data-aos-duration="800"
+             data-aos-easing="ease-in-out"
+             data-aos-once="true">
           <div class="product-about__description">
             <div class="product-about__description-inner">
               <div class="subtitle-s-3">Планировщик рассылок</div>
@@ -140,7 +147,10 @@
         <div class="product-about__col">
           <img src="assets/imgs/products/prod-1/info-5.svg" alt="">
         </div>
-        <div class="product-about__col">
+        <div class="product-about__col" data-aos="fade-right" data-aos-offset="50"
+             data-aos-duration="800"
+             data-aos-easing="ease-in-out"
+             data-aos-once="true">
           <div class="product-about__description">
             <div class="product-about__description-inner">
               <div class="subtitle-s-3">Спам-тест</div>
@@ -155,7 +165,10 @@
         <div class="product-about__col">
           <img src="assets/imgs/products/prod-1/info-6.svg" alt="">
         </div>
-        <div class="product-about__col">
+        <div class="product-about__col" data-aos="fade-left" data-aos-offset="50"
+             data-aos-duration="800"
+             data-aos-easing="ease-in-out"
+             data-aos-once="true">
           <div class="product-about__description">
             <div class="product-about__description-inner">
               <div class="subtitle-s-3">Анализатор баунсов</div>
@@ -169,7 +182,10 @@
     </div>
   </div>
 
-  <div class="product-cta">
+  <div class="product-cta" data-aos="fade-down" data-aos-offset="50"
+       data-aos-duration="800"
+       data-aos-easing="ease-in-out"
+       data-aos-once="true">
     <div class="container">
       <h2 class="heading-bm-2 product-cta__heading">Ready to start?</h2>
       <div class="product-cta__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -407,6 +423,10 @@
 
 </div>
 <script src="libs/jquery-1.12.4.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/custom.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

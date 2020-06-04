@@ -70,6 +70,7 @@
     font-size: 18px;
     overflow: visible;
     cursor: pointer;
+    z-index: 999;
 }
 .btn-double__inner{
     position: absolute;

@@ -431,6 +431,7 @@ ul, ol{
 }
 .product-about{
     padding: 126px 0 128px 0;
+    overflow: hidden;
 }
 .product-about__heading{
     width: 100%;
