@@ -9,6 +9,15 @@ $(document).ready(function () {
   $('.header__mobile-menu').click(function () {
     $('.header-navigation').slideToggle();
   });
+//  Help Sidebar
+  $('.help-sidebar-menu__top').click(function () {
+    $(this).toggleClass('help-sidebar-menu__top_opened');
+    $(this).siblings('.help-sidebar-menu__list').slideToggle(250);
+  });
+  $('.help-sidebar-mobile').click(function () {
+    $('.help-sidebar').toggleClass('help-sidebar_opened');
+  });
+
 //  IE9 placeholder
   $('[placeholder]').focus(function() {
     var input = $(this);
