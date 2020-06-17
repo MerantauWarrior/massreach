@@ -12,7 +12,9 @@ $(document).ready(function () {
 //  Help Sidebar
   $('.help-sidebar-menu__top').click(function () {
     $(this).toggleClass('help-sidebar-menu__top_opened');
+    $('.help-sidebar-menu__top').not($(this)).removeClass('help-sidebar-menu__top_opened');
     $(this).siblings('.help-sidebar-menu__list').slideToggle(250);
+    $('.help-sidebar-menu__top').not($(this)).siblings('.help-sidebar-menu__list').slideUp(250);
   });
   $('.help-sidebar-mobile').click(function () {
     $('.help-sidebar').toggleClass('help-sidebar_opened');
