@@ -30,6 +30,7 @@
     color: #071146;
 }
 .inp{
+    display: block;
     width: 100%;
     height: 50px;
     padding: 0 32px;
@@ -45,7 +46,10 @@
 .inp:focus{
     border: 1px solid #0052CC;
 }
-.inp.placeholder {
+.inp.error{
+    border: 1px solid #FCAA90;
+}
+.inp.placeholder{
     color: #B3C1F4;
 }
 .inp::-webkit-input-placeholder {
@@ -137,6 +141,7 @@
     font-size: 14px;
     text-align: center;
     color: #0052CC;
+    cursor: pointer;
 }
 .btn:hover{
     padding: 8px 0;
@@ -172,6 +177,152 @@
 }
 .btn:focus .btn__arrow{
     background: transparent url('../imgs/general/btn-arrow-white.png') center center no-repeat;
+}
+.btn-submit{
+    width: 190px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #0052CC;
+}
+.btn-submit:hover{
+    background-color: #fff;
+}
+.btn-submit:focus{
+    color: #ffffff;
+    background-color: #0052CC;
+}
+.btn-submit:disabled{
+    color: #B3C1F4;
+    background-color: transparent;
+    border: 2px solid #B3C1F4;
+    cursor: default;
+}
+.btn-submit .btn__arrow{
+    background: transparent url('../imgs/general/btn-arrow-white.png') center center no-repeat;
+}
+.btn-submit:hover .btn__arrow{
+    background: transparent url('../imgs/general/btn-arrow.png') center center no-repeat;
+}
+.btn-submit:focus .btn__arrow{
+    background: transparent url('../imgs/general/btn-arrow-white.png') center center no-repeat;
+}
+.btn-submit:disabled .btn__arrow{
+    background: transparent url('../imgs/general/btn-arrow-disabled.png') center center no-repeat;
+}
+.label-radio{
+    position: relative;
+    display: inline-block;
+    padding-left: 23px;
+}
+.label-radio:before,
+.label-radio:after{
+    content: "";
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.label-radio:before{
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #B3C1F4;
+}
+.label-radio:after{
+    display: none;
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    background-color: #0052CC;
+}
+input[type="checkbox"]:checked + .label-radio:after{
+    display: block;
+}
+/*Select*/
+.select{
+    position: relative;
+    width: 100%;
+}
+.select select{
+    display: none;
+}
+.select-selected{
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #B3C1F4;
+    font-family: "DidactGothic-Regular",sans-serif;
+    color: #0052CC;
+    background-color: #fff;
+}
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 29px;
+    width: 18px;
+    height: 6px;
+    margin-top: -3px;
+    background: url("../imgs/general/select-arrow.svg") no-repeat center center;
+    background-size: contain;
+}
+.select-selected.select-arrow-active:after {
+    background: url("../imgs/general/select-arrow.svg") no-repeat right center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.select-items div, .select-selected{
+    padding: 0 32px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+.select-items div{
+    height: 30px;
+    margin: 8px 0;
+    line-height: 30px;
+    color: #071146;
+}
+.select-items div:first-child{
+    margin-top: 5px;
+}
+.select-items div:last-child{
+    margin-bottom: 0;
+}
+.select-items div.same-as-selected{
+    background-color: #B3C1F4;
+    cursor: default;
+}
+.select-items{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 7px;
+    padding: 20px 0;
+    background-color: #fff;
+    border: 1px solid #B3C1F4;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 99;
+}
+.select-hide{
+    display: none;
+}
+.select-items div:not(.same-as-selected):hover{
+    background-color: #B3C1F4;
 }
 /*Single article styles*/
 .article h3{
