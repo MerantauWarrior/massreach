@@ -347,6 +347,7 @@ input[type="radio"]{
 /*Breadcrumbs component*/
 .breadcrumbs{
     padding: 0 15px;
+    text-align: left;
 }
 .breadcrumbs__item,
 .breadcrumbs__link,
@@ -857,7 +858,13 @@ input[type="radio"]{
     vertical-align: middle;
 }
 .help-products__text{
+    display: inline-block;
+    vertical-align: middle;
     margin: 0 10px;
+    color: #0052CC;
+}
+.help-products__text:hover{
+    text-decoration: underline;
 }
 .help-products__arrow{
     margin-top: 2px;
@@ -1028,4 +1035,21 @@ input[type="radio"]{
 .instructions-modal__title{
     margin-top: 118px;
     text-align: center;
+}
+/*--- DELETED ---*/
+.deleted-top{
+    padding: 30px 0 61px 0;
+    text-align: center;
+}
+.deleted-top__title{
+    margin-top: 80px;
+}
+.deleted-top__text{
+    margin: 45px 0 61px 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #071146;
+}
+.deleted-top__img img{
+    margin: 0 auto;
 }

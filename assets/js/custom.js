@@ -23,6 +23,14 @@ $(document).ready(function () {
   $('.instructions-modal__close').click(function () {
     $(this).closest('.instructions-modal').hide();
   });
+//  Contacts
+  $('.js-agreement').on('change', function () {
+    if($(this).is(":checked") || $(this).prop("checked")){
+      $(this).closest('form').find('button[type=submit]').prop('disabled',false);
+    }else{
+      $(this).closest('form').find('button[type=submit]').prop('disabled',true);
+    }
+  });
 
 //Select
   var x, i, j, selElmnt, a, b, c, img;
