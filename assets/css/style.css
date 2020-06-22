@@ -1053,3 +1053,58 @@ input[type="radio"]{
 .deleted-top__img img{
     margin: 0 auto;
 }
+/*--- PARTNER ---*/
+.partner-top{
+    padding-top: 30px;
+}
+.partner-faqs{
+    padding: 124px 0 131px 0;
+}
+.faqs-item__content ul{
+    font-size: 16px;
+    line-height: 26px;
+}
+.partner-reg{
+    padding: 30px 0 218px 0;
+    background-color: #F6F8FD;
+    color: #071146;
+}
+.partner-reg__top{
+    margin-top: 80px;
+}
+.partner-reg__heading{
+    text-align: center;
+}
+.partner-reg__heading span{
+    color: #0052CC;
+}
+.partner-reg__subheading{
+    max-width: 750px;
+    margin: 40px auto 26px auto;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.partner-reg-form{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+.partner-reg-form__log-reg{
+    margin-top: 38px;
+}
+.partner-reg-form__enter{
+    float: left;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.partner-reg-form__enter a{
+    color: #0052CC;
+}
+.partner-reg-form__enter a:hover{
+    text-decoration: underline;
+}
+.partner-reg-form__register{
+    float: right;
+}

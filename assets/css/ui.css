@@ -29,6 +29,13 @@
     line-height: 23px;
     color: #071146;
 }
+.label{
+    display: inline-block;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #071146;
+}
 .inp{
     display: block;
     width: 100%;
@@ -241,6 +248,30 @@
 }
 input[type="checkbox"]:checked + .label-radio:after{
     display: block;
+}
+.password-inp{
+    position: relative;
+    width: 100%;
+}
+.password-inp .inp{
+    appearance: none;
+}
+.password-inp .inp::-ms-clear, .password-inp .inp::-ms-reveal {
+    display: none;
+}
+.password-inp__icon{
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    margin-top: -7px;
+    width: 23px;
+    height: 13px;
+    background: url("../imgs/general/password-close.svg") no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+.password-inp_show .password-inp__icon{
+    background: url("../imgs/general/password-open.svg") no-repeat center center;
 }
 /*Select*/
 .select{
