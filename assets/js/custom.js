@@ -31,6 +31,12 @@ $(document).ready(function () {
       $(this).closest('form').find('button[type=submit]').prop('disabled',true);
     }
   });
+//  Registration
+  $('.password-inp__icon').click(function () {
+    $(this).parent().toggleClass('password-inp_show');
+    var inpType = $(this).siblings('input').prop('type');
+    $(this).siblings('input').prop('type', inpType == 'password' ? 'text' : 'password');
+  });
 
 //Select
   var x, i, j, selElmnt, a, b, c, img;
