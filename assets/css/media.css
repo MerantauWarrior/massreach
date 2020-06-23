@@ -27,6 +27,10 @@
     .instructions-top{
         background-size: contain;
     }
+    /*Partner*/
+    .partner-earn-item{
+        margin-bottom: 30px;
+    }
 }
 @media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
     .header-logo__text{
@@ -67,9 +71,51 @@
     .contacts-form__b-inps{
         max-width: 48%;
     }
+    /*Partner*/
+    .partner-why-item{
+        margin: 0 30px;
+    }
 }
 @media all and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){}
 @media all and (min-width: 320px) and (max-width: 767px){
+    /*Partner*/
+    .partner-why,
+    .partner-earn{
+        padding: 60px 0;
+    }
+    .partner-why-item,
+    .partner-earn-item{
+        max-width: 100%;
+        margin: 0;
+    }
+    .partner-earn__items{
+        margin: 20px 0 50px 0;
+    }
+    .partner-earn-item{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .partner-earn__cta-numbers, .partner-earn__cta-text{
+        text-align: center;
+    }
+    .partner-earn__cta-numbers{
+        margin: 20px 0;
+    }
+    .partner-earn-item__icon{
+        float: none;
+        display: inline-block;
+    }
+    .partner-earn-item__arrow{
+        display: none;
+    }
+    .partner-questions__inner,
+    .partner-questions__image,
+    .partner-questions__content{
+        display: block;
+    }
+    .partner-questions__content{
+        padding-left: 0;
+    }
     /*Products-all*/
     .product-cta--prod-all{
         padding: 75px 0;

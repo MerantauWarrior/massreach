@@ -7,6 +7,7 @@
   <meta name="description" content="description"/>
   <meta name="keywords" content="keywords, description"/>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="libs/slick/slick.css">
   <link rel="stylesheet" href="assets/css/ui.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/media.css">
@@ -55,7 +56,7 @@
     </div>
   </header>
 
-  <div class="partner-top">
+  <div class="partner-top partner-top--float">
     <div class="container">
       <div class="breadcrumbs">
         <div class="breadcrumbs__item">
@@ -64,14 +65,234 @@
         </div>
         <div class="breadcrumbs__item">
           <a href="#" class="breadcrumbs__link">Партнерская программа</a>
-          <div class="breadcrumbs__arrow"></div>
-        </div>
-        <div class="breadcrumbs__item">
-          <a href="#" class="breadcrumbs__link">Регистрация</a>
         </div>
       </div>
       <div class="">
-        <h1 class="heading-bm-1 ">wer</h1>
+        <h1 class="heading-bm-1 partner-top__title"><span>Партнерская программа MassReach</span> Зарабатывайте до 30% с каждой продажи</h1>
+        <a href="#" class="btn-double">
+            <span class="btn-double__inner">Стать партнером
+              <span class="btn-double__arrow">
+                <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                      fill=""/>
+                  </svg>
+              </span>
+            </span>
+          <span class="btn-double__backdrop"></span>
+        </a>
+        <div class="partner-top__subtitle">Приводите клиентов и получайте дополнительный доход</div>
+        <img src="assets/imgs/partner/partner-top-bg.png" class="partner-top__img" alt="text">
+      </div>
+    </div>
+  </div>
+
+  <div class="partner-why">
+    <div class="container-md">
+      <h2 class="heading-bm-2 partner-why__title">Почему MassReach?</h2>
+      <div class="partner-why__items">
+        <div class="partner-why-item">
+          <div class="partner-why-item__icon">
+            <img src="assets/imgs/partner/partner-why-1.svg" alt="txt">
+          </div>
+          <div class="partner-why-item__title subtitle-s-3">Просто</div>
+          <div class="partner-why-item__description">Регистрируйтесь и делитесь партнерской ссылкой в интернете, а мы
+            предоставим качественный продукт и промо-материалы.
+          </div>
+        </div>
+        <div class="partner-why-item">
+          <div class="partner-why-item__icon">
+            <img src="assets/imgs/partner/partner-why-2.svg" alt="txt">
+          </div>
+          <div class="partner-why-item__title subtitle-s-3">Прибыльно</div>
+          <div class="partner-why-item__description">Больше покупателей ― больше заработок: комиссия от продажи лицензии
+            составляет до 30%!
+          </div>
+        </div>
+        <div class="partner-why-item">
+          <div class="partner-why-item__icon">
+            <img src="assets/imgs/partner/partner-why-3.svg" alt="txt">
+          </div>
+          <div class="partner-why-item__title subtitle-s-3">Стабильно</div>
+          <div class="partner-why-item__description">Отслеживайте статистику продаж в вашем личном кабинете и получайте
+            регулярные выплаты без задержек.
+          </div>
+        </div>
+        <div class="partner-why-item">
+          <div class="partner-why-item__icon">
+            <img src="assets/imgs/partner/partner-why-4.svg" alt="txt">
+          </div>
+          <div class="partner-why-item__title subtitle-s-3">Надежно</div>
+          <div class="partner-why-item__description">Партнеры MassReach работают в ЛК с персональным менеджером, который
+            помогает решить любые вопросы.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="partner-earn">
+    <div class="container">
+      <h2 class="heading-bm-2 partner-earn__title">Как зарабатывать с MassReach</h2>
+      <div class="partner-earn__items clear">
+        <div class="partner-earn-item">
+          <div class="partner-earn-item__top clear">
+            <div class="partner-earn-item__icon"><img src="assets/imgs/partner/partner-earn-1.svg" alt="text"></div>
+            <div class="partner-earn-item__arrow"><img src="assets/imgs/partner/partner-earn-arrow.svg" alt="->"></div>
+          </div>
+          <div class="subtitle-s-3 partner-earn-item__title">Зарегистрируйтесь</div>
+          <div class="partner-earn-item__description">Создайте бесплатный личный кабинет партнера по ссылке в пару
+            кликов
+          </div>
+        </div>
+        <div class="partner-earn-item">
+          <div class="partner-earn-item__top clear">
+            <div class="partner-earn-item__icon"><img src="assets/imgs/partner/partner-earn-2.svg" alt="text"></div>
+            <div class="partner-earn-item__arrow"><img src="assets/imgs/partner/partner-earn-arrow.svg" alt="->"></div>
+          </div>
+          <div class="subtitle-s-3 partner-earn-item__title">Поделитесь ссылкой</div>
+          <div class="partner-earn-item__description">Публикуйте реферальную ссылку на сайтах, в мессенджерах или
+            соцсетях
+          </div>
+        </div>
+        <div class="partner-earn-item">
+          <div class="partner-earn-item__top clear">
+            <div class="partner-earn-item__icon"><img src="assets/imgs/partner/partner-earn-3.svg" alt="text"></div>
+          </div>
+          <div class="subtitle-s-3 partner-earn-item__title">Наслаждайтесь доходом</div>
+          <div class="partner-earn-item__description">Выводите заработанные деньги или тратьте на покупки в MassReach
+            Box
+          </div>
+        </div>
+      </div>
+      <div class="partner-earn__cta">
+        <div class="partner-earn__cta-numbers">30%</div>
+        <div class="partner-earn__cta-text">
+          <div class="heading-bm-2 partner-earn__cta-title">Создайте аккаунт и станьте <span>партнером MassReach</span>
+          </div>
+          <a href="#" class="btn-double">
+            <span class="btn-double__inner">Зарегистрироваться
+              <span class="btn-double__arrow">
+                <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                      fill=""/>
+                  </svg>
+              </span>
+            </span>
+            <span class="btn-double__backdrop"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="partner-feedbacks">
+    <div class="container">
+      <h2 class="heading-bm-2 partner-feedbacks__title">Присоединяйтесь к партнерам <span>MassReach Box</span>, которые
+        зарабатывают $500 ежемесячно</h2>
+      <div class="partner-feedbacks-slider">
+        <div class="partner-feedbacks-slider-item">
+          <div class="partner-feedbacks-slider-item__avatar"><img src="assets/imgs/partner/partner-feedbacks-1.png"
+                                                                  alt="text"></div>
+          <div class="partner-feedbacks-slider-item__text">Долгое время подрабатываю на аффилиатках, но MassReach Box
+            однозначный любимчик. Отличный...
+          </div>
+          <div class="partner-feedbacks-slider-item__info">
+            <div class="partner-feedbacks-slider-item__name">Константин</div>
+            <div class="partner-feedbacks-slider-item__occupation">Freelace & Свободный предприниматель</div>
+          </div>
+        </div>
+        <div class="partner-feedbacks-slider-item">
+          <div class="partner-feedbacks-slider-item__avatar"><img src="assets/imgs/partner/partner-feedbacks-2.png"
+                                                                  alt="text"></div>
+          <div class="partner-feedbacks-slider-item__text">Работаю с MassReach уже как два месяца. Очень довольна
+            качеством поддержки и стабильностью выплат.
+          </div>
+          <div class="partner-feedbacks-slider-item__info">
+            <div class="partner-feedbacks-slider-item__name">Ирина</div>
+            <div class="partner-feedbacks-slider-item__occupation">Блоггер</div>
+          </div>
+        </div>
+        <div class="partner-feedbacks-slider-item">
+          <div class="partner-feedbacks-slider-item__avatar"><img src="assets/imgs/partner/partner-feedbacks-3.png"
+                                                                  alt="text"></div>
+          <div class="partner-feedbacks-slider-item__text">Постоянно обозреваю полезные инструменты для
+            предпринимателей, и MassReach...
+          </div>
+          <div class="partner-feedbacks-slider-item__info">
+            <div class="partner-feedbacks-slider-item__name">Александр</div>
+            <div class="partner-feedbacks-slider-item__occupation">Бизнес блог</div>
+          </div>
+        </div>
+        <div class="partner-feedbacks-slider-item">
+          <div class="partner-feedbacks-slider-item__avatar"><img src="assets/imgs/partner/partner-feedbacks-1.png"
+                                                                  alt="text"></div>
+          <div class="partner-feedbacks-slider-item__text">Долгое время подрабатываю на аффилиатках, но MassReach Box
+            однозначный любимчик. Отличный...
+          </div>
+          <div class="partner-feedbacks-slider-item__info">
+            <div class="partner-feedbacks-slider-item__name">Константин</div>
+            <div class="partner-feedbacks-slider-item__occupation">Freelace & Свободный предприниматель</div>
+          </div>
+        </div>
+        <div class="partner-feedbacks-slider-item">
+          <div class="partner-feedbacks-slider-item__avatar"><img src="assets/imgs/partner/partner-feedbacks-2.png"
+                                                                  alt="text"></div>
+          <div class="partner-feedbacks-slider-item__text">Работаю с MassReach уже как два месяца. Очень довольна
+            качеством поддержки и стабильностью выплат.
+          </div>
+          <div class="partner-feedbacks-slider-item__info">
+            <div class="partner-feedbacks-slider-item__name">Ирина</div>
+            <div class="partner-feedbacks-slider-item__occupation">Блоггер</div>
+          </div>
+        </div>
+        <div class="partner-feedbacks-slider-item">
+          <div class="partner-feedbacks-slider-item__avatar"><img src="assets/imgs/partner/partner-feedbacks-3.png"
+                                                                  alt="text"></div>
+          <div class="partner-feedbacks-slider-item__text">Постоянно обозреваю полезные инструменты для
+            предпринимателей, и MassReach...
+          </div>
+          <div class="partner-feedbacks-slider-item__info">
+            <div class="partner-feedbacks-slider-item__name">Александр</div>
+            <div class="partner-feedbacks-slider-item__occupation">Бизнес блог</div>
+          </div>
+        </div>
+        <div class="partner-feedbacks-slider-item">
+          <div class="partner-feedbacks-slider-item__avatar"><img src="assets/imgs/partner/partner-feedbacks-1.png"
+                                                                  alt="text"></div>
+          <div class="partner-feedbacks-slider-item__text">Долгое время подрабатываю на аффилиатках, но MassReach Box
+            однозначный любимчик. Отличный...
+          </div>
+          <div class="partner-feedbacks-slider-item__info">
+            <div class="partner-feedbacks-slider-item__name">Константин</div>
+            <div class="partner-feedbacks-slider-item__occupation">Freelace & Свободный предприниматель</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="partner-questions">
+    <div class="container">
+      <div class="partner-questions__inner">
+        <div class="partner-questions__image"><img src="assets/imgs/partner/partner-questions.svg" alt="text"></div>
+        <div class="partner-questions__content">
+          <h2 class="heading-bm-2">Остались вопросы?</h2>
+          <div class="partner-questions__text">Персональный менеджер решит любую проблему</div>
+          <a href="#" class="btn-double">
+            <span class="btn-double__inner">Зарегистрироваться
+              <span class="btn-double__arrow">
+                <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                      fill=""/>
+                  </svg>
+              </span>
+            </span>
+            <span class="btn-double__backdrop"></span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -108,16 +329,20 @@
             <div class="faqs-item__title">Где можно разместить партнерскую ссылку?</div>
             <div class="faqs-item__arrow"></div>
           </div>
-          <div class="faqs-item__content article">За каждый заказ по вашей ссылке – вознаграждение. Используйте все возможности
+          <div class="faqs-item__content article">За каждый заказ по вашей ссылке – вознаграждение. Используйте все
+            возможности
             рассказать о продукте:
             <ul>
               <li>Оставляйте отзывы с упоминанием преимуществ программ – люди доверяют опыту других
-                пользователей.</li>
+                пользователей.
+              </li>
               <li>Публикуйте видео-обзоры, указав партнерскую ссылку в описании. Отвечайте на комментарии
-                заинтересованных пользователей, чтобы рассказать о продукте больше и пробудить к нему больший интерес.</li>
+                заинтересованных пользователей, чтобы рассказать о продукте больше и пробудить к нему больший интерес.
+              </li>
               <li>Попросите создать ваш уникальный промокод на скидку.</li>
               <li>Работайте с аудиторией в социальных сетях, участвуйте
-                в обсуждениях, запускайте рекламу. </li>
+                в обсуждениях, запускайте рекламу.
+              </li>
             </ul>
             Все эти шаги способствуют росту продаж, а значит – увеличению баланса на вашем счету.
           </div>
@@ -258,6 +483,7 @@
 </div>
 <script src="libs/jquery-1.12.4.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="libs/slick/slick.min.js"></script>
 <script src="assets/js/custom.js"></script>
 <script>
   AOS.init();

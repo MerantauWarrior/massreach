@@ -79,6 +79,7 @@
     line-height: 46px;
     padding: 0;
     font-size: 18px;
+    text-align: center;
     overflow: visible;
     cursor: pointer;
     z-index: 999;
