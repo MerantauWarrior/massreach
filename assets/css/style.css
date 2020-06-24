@@ -1062,7 +1062,7 @@ input[type="radio"]{
     text-align: center;
 }
 .partner-top--float{
-    background: transparent url('../imgs/partner/partner-top-bg-float.png') center 60px no-repeat;
+    background: transparent url('../imgs/partner/partner-top-bg-float.svg') center 60px no-repeat;
 }
 .partner-top__title{
     width: 100%;
@@ -1116,7 +1116,6 @@ input[type="radio"]{
     font-size: 16px;
     line-height: 26px;
 }
-
 .partner-earn{
     padding: 124px 0 135px 0;
     color: #071146;
@@ -1252,6 +1251,16 @@ input[type="radio"]{
 }
 .partner-questions{
     padding: 60px 0;
+}
+[data-aos="partner-questions-anim"] {
+    background-color: #fff;
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -ms-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+[data-aos="partner-questions-anim"].aos-animate {
     background-color: #95E196;
 }
 .partner-questions__text{
