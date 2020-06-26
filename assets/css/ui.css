@@ -382,6 +382,10 @@ input[type="checkbox"]:checked + .label-radio:after{
 .article p:last-child{
     margin-bottom: 0;
 }
+.article h4 + ul,
+.article p + ul{
+    margin: 24px 0 27px 0;
+}
 .article ul,
 .article ol{
     font-size: 18px;
