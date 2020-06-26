@@ -293,4 +293,8 @@
     .instructions-modal__title{
         margin-top: 50px;
     }
+    /*Documentation*/
+    .documentation-link-small{
+        font-size: 12px;
+    }
 }

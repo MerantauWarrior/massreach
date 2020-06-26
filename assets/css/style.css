@@ -1372,3 +1372,11 @@ input[type="radio"]{
     line-height: 28px;
     color: #071146;
 }
+.documentation-img-resp{
+    display: block;
+    max-width: 100%;
+    overflow: auto;
+}
+.documentation-img-resp img{
+    max-width: 750px;
+}
