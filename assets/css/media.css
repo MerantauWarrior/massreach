@@ -297,4 +297,13 @@
     .documentation-link-small{
         font-size: 12px;
     }
+    /*Support*/
+    .support-form__submit{
+        position: static;
+        display: block;
+        margin: 30px auto 0 auto;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
 }
