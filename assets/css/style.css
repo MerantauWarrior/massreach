@@ -1587,6 +1587,6 @@ input[type="radio"]{
 .contacts-page-item__social-item img{
     height: 17px;
 }
-.contacts-page-item__social-item:hover img:first-child {
+.contacts-page-item__social-item:hover img:first-child{
     margin-top: -17px;
 }
