@@ -1590,3 +1590,119 @@ input[type="radio"]{
 .contacts-page-item__social-item:hover img:first-child{
     margin-top: -17px;
 }
+
+/*--- UPDATES ---*/
+.updates-top{
+    position: relative;
+    padding: 25px 0 124px 0;
+    background-color: #B3C1F4;
+}
+.updates-top__title{
+    margin-top: 82px;
+    text-align: center;
+}
+.updates-top__icon{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+}
+.updates{
+    padding: 135px 0;
+}
+.updates-item{
+    margin-bottom: 60px;
+    background-color: #fff;
+    border: 1px solid #B3C1F4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.updates-item:last-child{
+    margin-bottom: 0;
+}
+.updates-item__top{
+    padding: 26px 36px 21px 30px;
+    border-bottom: 1px solid #B3C1F4;
+}
+.updates-item__content{
+    padding: 60px 36px 0 30px;
+}
+.updates-item__top-general{
+    float: left;
+}
+.updates-item__top-additional{
+    float: right;
+}
+.updates-item__logo,
+.updates-item__name,
+.updates-item__date,
+.updates-item__top-additional-text,
+.updates-item__top-additional-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+.updates-item__name,
+.updates-item__date,
+.updates-item__top-additional-text{
+    font-family: "Comfortaa-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+.updates-item__logo{
+    margin-right: 8px;
+}
+.updates-item__name{
+    margin-right: 36px;
+    color: #0052CC;
+}
+.updates-item__date{
+    color: #B3C1F4;
+}
+.updates-item__top-additional-text {
+    margin-right: 6px;
+    color: #FCAA90;
+}
+.updates-item-improvement{
+    margin-bottom: 57px;
+}
+.updates-item-improvement__top-text,
+.updates-item-improvement__top-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+.updates-item-improvement__top-icon{
+    margin-right: 13px;
+}
+.updates-item-improvement__top-text{
+    font-family: "Comfortaa-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0052CC;
+}
+.updates-item-improvement__list{
+    margin-left: 38px;
+}
+.updates-item-improvement__list > li{
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.updates-item-improvement__list > li:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #0052CC;
+}

@@ -1,3 +1,9 @@
+.clear:before,
+.clear:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .heading-bm-1{
     font-family: "Comfortaa-Bold", sans-serif;
     font-size: 48px;

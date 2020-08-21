@@ -305,5 +305,28 @@
         border-bottom-left-radius: 5px;
         border-top-left-radius: 5px;
     }
-
+    /*Updates*/
+    .updates-item__top{
+        padding: 15px;
+    }
+    .updates-item__top-general,
+    .updates-item__top-additional{
+        float: none;
+    }
+    .updates-item__top-additional{
+        margin-top: 15px;
+    }
+    .updates-item__date{
+        display: block;
+        margin-top: 10px;
+    }
+    .updates-item__content{
+        padding: 30px 15px 0 15px;
+    }
+    .updates-item-improvement{
+        margin-bottom: 30px;
+    }
+    .updates-item-improvement__list{
+        margin-left: 0;
+    }
 }
