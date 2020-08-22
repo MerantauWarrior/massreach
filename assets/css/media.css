@@ -75,6 +75,10 @@
     .partner-why-item{
         margin: 0 30px;
     }
+    /*feedbacks*/
+    .feedbacks-form__rating-row{
+        max-width: 48%;
+    }
 }
 @media all and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){}
 @media all and (min-width: 320px) and (max-width: 767px){
@@ -328,5 +332,28 @@
     }
     .updates-item-improvement__list{
         margin-left: 0;
+    }
+    /*feedbacks*/
+    .feedbacks-slider{
+        padding: 50px 0;
+    }
+    .feedbacks-slide__text{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .feedbacks-important{
+        margin: 50px 0;
+    }
+    .feedbacks-important-item{
+        margin: 0 0 30px 0;
+    }
+    .feedbacks-logos{
+        margin-bottom: 50px;
+    }
+    .feedbacks-cta{
+        margin: 50px 0;
+    }
+    .feedbacks-form{
+        padding: 50px 0;
     }
 }

@@ -19,7 +19,7 @@ $(document).ready(function () {
   $('.help-sidebar-mobile').click(function () {
     $('.help-sidebar').toggleClass('help-sidebar_opened');
   });
-//Instructions
+//  Instructions
   $('.instructions-modal__close').click(function () {
     $(this).closest('.instructions-modal').hide();
   });
@@ -37,6 +37,17 @@ $(document).ready(function () {
     var inpType = $(this).siblings('input').prop('type');
     $(this).siblings('input').prop('type', inpType === 'password' ? 'text' : 'password');
   });
+//  Feedbacks
+  if($('.feedbacks-slider__carousel').length > 0){
+    $('.feedbacks-slider__carousel').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  }
 //  Partners
   if($('.partner-feedbacks').length > 0){
     $('.partner-feedbacks-slider').slick({
