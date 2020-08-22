@@ -1819,7 +1819,11 @@ input[type="radio"]{
     float: left;
     width: 100%;
     max-width: 427px;
-    margin: 35px 0 43px 0;
+    margin: 35px 0 15px 0;
+}
+.feedbacks-form__submit{
+    float: left;
+    margin-top: 28px;
 }
 .feedbacks-form__rating-items{
     direction: rtl;
