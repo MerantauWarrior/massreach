@@ -31,6 +31,11 @@
     .partner-earn-item{
         margin-bottom: 30px;
     }
+    /*Smpt*/
+    .smtp-benefit{
+        width: 100%;
+        max-width: 48%;
+    }
 }
 @media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
     .header-logo__text{
@@ -75,9 +80,20 @@
     .partner-why-item{
         margin: 0 30px;
     }
-    /*feedbacks*/
+    /*Feedbacks*/
     .feedbacks-form__rating-row{
         max-width: 48%;
+    }
+    /*Smpt*/
+    .smtp-benefit,
+    .smtp-benefit:nth-child(even){
+        float: none;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .smtp-step__img{
+        max-width: 360px;
     }
 }
 @media all and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){}
@@ -355,5 +371,19 @@
     }
     .feedbacks-form{
         padding: 50px 0;
+    }
+    /*smtp*/
+    .smtp-step__content{
+        margin-top: 30px;
+    }
+    .smtp-step--reverse{
+        text-align: left;
+    }
+    .smtp-step__arrow-one,
+    .smtp-step__arrow-two{
+        display: none;
+    }
+    .smtp-benefits{
+        overflow: hidden;
     }
 }

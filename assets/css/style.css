@@ -1854,3 +1854,210 @@ input[type="radio"]{
     content: "";
     background: transparent url('../imgs/feedbacks/feedbacks-form-star-full.svg') center center no-repeat;
 }
+
+/*--- SMTP ---*/
+.smtp-top-bg{
+    background-color: #B3C1F4;
+}
+.smtp-top{
+    height: 296px;
+    padding-top: 25px;
+    text-align: center;
+}
+.smtp-top--primary{
+    height: 374px;
+}
+.smtp-top__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.smtp-top__subtitle{
+    margin-top: 39px;
+}
+.smtp-top__img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%,50%);
+    -moz-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    -o-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+}
+.smtp{
+    padding-top: 122px;
+    color: #071146;
+}
+.smtp__seo-text{
+    margin-bottom: 115px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.smtp__heading-2{
+    text-align: center;
+}
+.smtp__steps{
+    margin-top: 92px;
+}
+.smtp-step{
+    margin-bottom: 135px;
+}
+.smtp-step__img{
+    float: left;
+}
+.smtp-step__content{
+    float: right;
+    width: 100%;
+    max-width: 360px;
+}
+.smtp-step--reverse{
+    text-align: right;
+}
+.smtp-step--reverse .smtp-step__img{
+    float: right;
+}
+.smtp-step--reverse .smtp-step__content{
+    float: left;
+}
+.smtp-step__number{
+    margin-bottom: 24px;
+    color: #0052CC;
+}
+.smtp-step__title{
+    margin-bottom: 23px;
+}
+.smtp-step__description{
+    font-size: 16px;
+    line-height: 26px;
+}
+.smtp-step__btn{
+    position: relative;
+    margin-top: 33px;
+}
+.smtp-step__arrow-one{
+    position: absolute;
+    top: 50%;
+    left: -250px;
+}
+.smtp-step__arrow-two{
+    position: absolute;
+    top: 50%;
+    right: -250px;
+}
+.smtp-benefits{
+    padding: 123px 0 135px 0;
+    background-color: #FEDB8F;
+}
+.smtp-benefits__list{
+    margin-top: 63px;
+}
+.smtp-benefit{
+    float: left;
+    min-height: 126px;
+    margin-bottom: 48px;
+}
+.smtp-benefit:nth-child(even){
+    float: right;
+}
+.smtp-benefit__img,
+.smtp-benefit__content{
+    display: inline-block;
+    vertical-align: top;
+}
+.smtp-benefit__img{
+    margin-right: 26px;
+}
+.smtp-benefit__content{
+    width: 100%;
+    max-width: 360px;
+}
+.smtp-benefits__title{
+    margin-bottom: 25px;
+}
+.smtp-benefits__description{
+    font-size: 16px;
+    line-height: 26px;
+}
+.smtp-benefits__btn{
+    padding-top: 8px;
+    text-align: center;
+}
+.smtp-top__secondary-small-title{
+    max-width: 410px;
+    margin: 0 auto;
+}
+.smtp-settings{
+    padding: 123px 0 135px 0;
+}
+.smtp-settings h2{
+    margin-bottom: 41px;
+    text-align: center;
+}
+.smtp-settings p{
+    margin: 29px 0 33px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #071146;
+}
+.smtp-settings img{
+    margin: 0 auto;
+}
+.smtp-partner{
+    padding: 141px 0 128px 0;
+}
+.smtp-partner__seo-p{
+    margin: 22px 0;
+}
+.smtp-partner p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #071146;
+}
+.smtp-partner a{
+    color: #0052CC;
+}
+.smtp-partner__partners{
+    margin: 119px 0;
+}
+.smtp-partner__partners h3{
+    text-align: center;
+}
+.smtp-partner-item{
+    margin-top: 55px;
+}
+.smtp-partner-item__img,
+.smtp-partner-item__title{
+    display: inline-block;
+    vertical-align: middle;
+}
+.smtp-partner-item__title{
+    margin-left: 26px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0052CC;
+}
+.smtp-partner-item__text{
+    margin: 29px 0 22px 0;
+}
+.smtp-partner__last-p{
+    margin-top: 36px;
+}
+.smtp-partner-warning{
+    margin-top: 45px;
+    padding-left: 31px;
+    border-left: 3px solid #FCAA90;
+    font-style: italic;
+}
+.smtp-partner-warning span{
+    color: #FCAA90;
+}
