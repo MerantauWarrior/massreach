@@ -23,6 +23,7 @@
     line-height: 33px;
     color: #071146;
 }
+.heading-bm-4,
 .subtitle-s-2{
     font-family: "Comfortaa-Bold", sans-serif;
     font-size: 24px;
@@ -106,6 +107,10 @@
     background-color: #fff;
     z-index: 2;
 }
+.btn-double--onblue .btn-double__inner{
+    border: 2px solid #FFFFFF;
+    color: #071146;
+}
 .btn-double__arrow{
     display: inline-block;
     vertical-align: middle;
@@ -115,6 +120,9 @@
 .btn-double svg{
     display: block;
     fill: #0052CC;
+}
+.btn-double--onblue.btn-double svg{
+    fill: #071146;
 }
 .btn-double:hover .btn-double__inner{
     background-color: transparent;

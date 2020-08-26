@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <title>Support result</title>
+  <title>Blog result</title>
   <meta name="description" content="description"/>
   <meta name="keywords" content="keywords, description"/>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -54,7 +54,7 @@
     </div>
   </header>
 
-  <div class="support-top">
+  <section class="blog-top">
     <div class="container">
       <div class="breadcrumbs">
         <div class="breadcrumbs__item">
@@ -62,68 +62,92 @@
           <div class="breadcrumbs__arrow"></div>
         </div>
         <div class="breadcrumbs__item">
-          <a href="#" class="breadcrumbs__link">Ресурсы</a>
-          <div class="breadcrumbs__arrow"></div>
-        </div>
-        <div class="breadcrumbs__item">
-          <a href="#" class="breadcrumbs__link">Техподдержка</a>
+          <a href="#" class="breadcrumbs__link">Блог</a>
         </div>
       </div>
-      <h1 class="heading-bm-1 support-top-h1">Чем мы можем помочь?</h1>
-      <form action="" method="get" class="support-form">
-        <input type="text" name="s" id="s" class="inp support-form__inp" placeholder="Искать по запросу...">
-        <button class="btn btn-submit support-form__submit" type="submit">Искать</button>
-      </form>
+      <h1 class="heading-bm-1 blog-top__title">Блог</h1>
     </div>
-  </div>
+  </section>
 
-  <div class="support-result">
-    <div class="container-sm">
-      <div class="support-result__text">Извините, но ничего не соответствуют условия поиска. Пожалуйста, попытайтесь
-        снова с другими ключевыми словами.
+  <section class="blog">
+    <div class="container">
+      <form action="" method="get">
+        <div class="blog-search">
+          <input type="text" name="s" id="s" class="inp-blog-search" placeholder="Поиск по блогу" value="Email">
+          <button class="btn-blog-search" type="submit"><img src="assets/imgs/blog/blog-search.svg" alt="Search">
+          </button>
+        </div>
+      </form>
+      <div class="blog__result-text">По вашему запросу найдено 12 результатов</div>
+      <div class="blog__posts">
+        <div class="blog-post">
+          <div class="blog-post__img"><img src="assets/imgs/blog/blog-post-img.jpg" alt="test"></div>
+          <h4 class="heading-bm-4 blog-post__title"><a href="#">Быстро, качественно или дешево? Какой канал рассылки СМС
+            выбрать?</a></h4>
+          <p class="blog-post__description">Разные каналы отправки СМС отличаются скоростью, ценой и подписью в поле «От
+            кого». Читайте и узнайте подробнее об особенностях, преимуществах и недостатках каждого канала.</p>
+          <div class="blog-post__info">
+            <a href="#" class="blog-post__author">Татьяна Пирог</a>
+            <a href="#" class="blog-post__date">30.04.2020</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div class="blog-post__img"><img src="assets/imgs/blog/blog-post-img.jpg" alt="test"></div>
+          <h4 class="heading-bm-4 blog-post__title"><a href="#">Эффективность email рассылки: Доставлено не значит
+            прочитано</a></h4>
+          <p class="blog-post__description">Правда ли, что процент доставленных email напрямую отражает эффективность
+            маркетинговой кампании? Давайте разберемся, что такое доставка и доставляемость.</p>
+          <div class="blog-post__info">
+            <a href="#" class="blog-post__author">Татьяна Пирог</a>
+            <a href="#" class="blog-post__date">30.04.2020</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div class="blog-post__img"><img src="assets/imgs/blog/blog-post-img.jpg" alt="test"></div>
+          <h4 class="heading-bm-4 blog-post__title"><a href="#">Как сделать СМС рассылку узнаваемой: регистрируем имя
+            отправителя</a></h4>
+          <p class="blog-post__description">Как правильно выбрать имя отправителя СМС, как его зарегистрировать. Какие
+            есть варианты для тех, у кого нет желания или времени проходить процедуру регистрации.</p>
+          <div class="blog-post__info">
+            <a href="#" class="blog-post__author">Татьяна Пирог</a>
+            <a href="#" class="blog-post__date">30.04.2020</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div class="blog-post__img"><img src="assets/imgs/blog/blog-post-img.jpg" alt="test"></div>
+          <h4 class="heading-bm-4 blog-post__title"><a href="#">Быстро, качественно или дешево? Какой канал рассылки СМС
+            выбрать?</a></h4>
+          <p class="blog-post__description">Разные каналы отправки СМС отличаются скоростью, ценой и подписью в поле «От
+            кого». Читайте и узнайте подробнее об особенностях, преимуществах и недостатках каждого канала.</p>
+          <div class="blog-post__info">
+            <a href="#" class="blog-post__author">Татьяна Пирог</a>
+            <a href="#" class="blog-post__date">30.04.2020</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div class="blog-post__img"><img src="assets/imgs/blog/blog-post-img.jpg" alt="test"></div>
+          <h4 class="heading-bm-4 blog-post__title"><a href="#">Эффективность email рассылки: Доставлено не значит
+            прочитано</a></h4>
+          <p class="blog-post__description">Правда ли, что процент доставленных email напрямую отражает эффективность
+            маркетинговой кампании? Давайте разберемся, что такое доставка и доставляемость.</p>
+          <div class="blog-post__info">
+            <a href="#" class="blog-post__author">Татьяна Пирог</a>
+            <a href="#" class="blog-post__date">30.04.2020</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div class="blog-post__img"><img src="assets/imgs/blog/blog-post-img.jpg" alt="test"></div>
+          <h4 class="heading-bm-4 blog-post__title"><a href="#">Как сделать СМС рассылку узнаваемой: регистрируем имя
+            отправителя</a></h4>
+          <p class="blog-post__description">Как правильно выбрать имя отправителя СМС, как его зарегистрировать. Какие
+            есть варианты для тех, у кого нет желания или времени проходить процедуру регистрации.</p>
+          <div class="blog-post__info">
+            <a href="#" class="blog-post__author">Татьяна Пирог</a>
+            <a href="#" class="blog-post__date">30.04.2020</a>
+          </div>
+        </div>
       </div>
-      <div class="support-result__list">
-        <div class="support-result-item">
-          <a href="#" class="support-result-item__title">What is outreach marketing?</a>
-          <p class="support-result-item__text">Email outreach marketing is the process of looking for organizations or
-            individuals contacts that have a shared interest in what you or your company has to offer and sending them
-            relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc...</p>
-          <a href="#" class="support-result-item__more">Детальнее <span class="support-result-item__more-arrow">
-            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M11.3536 4.35355C11.5488 4.15829 11.5488 3.84171 11.3536 3.64645L8.17157 0.464465C7.97631 0.269203 7.65973 0.269203 7.46447 0.464465C7.2692 0.659728 7.2692 0.97631 7.46447 1.17157L10.2929 4L7.46447 6.82843C7.2692 7.02369 7.2692 7.34027 7.46447 7.53553C7.65973 7.7308 7.97631 7.7308 8.17157 7.53553L11.3536 4.35355ZM4.37114e-08 4.5L11 4.5L11 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z"
-                fill="#0052CC"/>
-            </svg>
-          </span></a>
-        </div>
-        <div class="support-result-item">
-          <a href="#" class="support-result-item__title">What is outreach marketing?</a>
-          <p class="support-result-item__text">Email outreach marketing is the process of looking for organizations or
-            individuals contacts that have a shared interest in what you or your company has to offer and sending them
-            relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc...</p>
-          <a href="#" class="support-result-item__more">Детальнее <span class="support-result-item__more-arrow">
-            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M11.3536 4.35355C11.5488 4.15829 11.5488 3.84171 11.3536 3.64645L8.17157 0.464465C7.97631 0.269203 7.65973 0.269203 7.46447 0.464465C7.2692 0.659728 7.2692 0.97631 7.46447 1.17157L10.2929 4L7.46447 6.82843C7.2692 7.02369 7.2692 7.34027 7.46447 7.53553C7.65973 7.7308 7.97631 7.7308 8.17157 7.53553L11.3536 4.35355ZM4.37114e-08 4.5L11 4.5L11 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z"
-                fill="#0052CC"/>
-            </svg>
-          </span></a>
-        </div>
-        <div class="support-result-item">
-          <a href="#" class="support-result-item__title">What is outreach marketing?</a>
-          <p class="support-result-item__text">Email outreach marketing is the process of looking for organizations or
-            individuals contacts that have a shared interest in what you or your company has to offer and sending them
-            relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc...</p>
-          <a href="#" class="support-result-item__more">Детальнее <span class="support-result-item__more-arrow">
-            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M11.3536 4.35355C11.5488 4.15829 11.5488 3.84171 11.3536 3.64645L8.17157 0.464465C7.97631 0.269203 7.65973 0.269203 7.46447 0.464465C7.2692 0.659728 7.2692 0.97631 7.46447 1.17157L10.2929 4L7.46447 6.82843C7.2692 7.02369 7.2692 7.34027 7.46447 7.53553C7.65973 7.7308 7.97631 7.7308 8.17157 7.53553L11.3536 4.35355ZM4.37114e-08 4.5L11 4.5L11 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z"
-                fill="#0052CC"/>
-            </svg>
-          </span></a>
-        </div>
-      </div>
-      <div class="support-result-pagination pagination">
+      <div class="blog-pagination pagination">
         <a href="#" class="pagination__arrow pagination__arrow_disabled">
           <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -145,7 +169,29 @@
         </a>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="blog-cta">
+    <div class="container">
+      <h2 class="heading-bm-2 blog-cta__title">Хочешь получать актуальные статьи?</h2>
+      <p class="blog-cta__subtitle">Пройди простую регистрацию и наслаждайся полезным контентом</p>
+      <form action="" method="get">
+        <input type="email" name="cta-b" id="cta-b" class="inp-blog-cta" placeholder="ivanov@gmail.com">
+        <button class="btn-double btn-double--onblue" type="submit">
+          <span class="btn-double__inner">Подписаться
+            <span class="btn-double__arrow">
+              <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                    fill=""/>
+                </svg>
+            </span>
+          </span>
+          <span class="btn-double__backdrop"></span>
+        </button>
+      </form>
+    </div>
+  </section>
 
   <footer class="footer">
     <div class="container-md">

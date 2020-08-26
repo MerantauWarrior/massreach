@@ -386,4 +386,15 @@
     .smtp-benefits{
         overflow: hidden;
     }
+    /*blog*/
+    .blog-post{
+        margin: 50px 0 0 0;
+    }
+    .blog-post__title{
+        min-height: auto;
+    }
+    .inp-blog-cta{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
 }
