@@ -397,4 +397,32 @@
         margin-right: 0;
         margin-bottom: 30px;
     }
+    /*blog-single*/
+    .blog-single-content ul{
+        margin-left: 0;
+    }
+    .blog-single-blockquote{
+        margin-left: 0;
+    }
+    .blog-single-cridentials__title{
+        display: block;
+    }
+    .blog-single-share,
+    .blog-single-rating{
+        margin-bottom: 30px;
+    }
+    .blog-single-rating__stars{
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    .blog-single-share__items{
+        margin-top: 8px;
+    }
+    .blog-single-share__item{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .blog-single-author__img{
+        margin-bottom: 15px;
+    }
 }
