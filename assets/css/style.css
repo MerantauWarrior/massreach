@@ -2453,3 +2453,53 @@ input[type="radio"]{
     max-width: 1040px;
     margin: 0 auto;
 }
+/*--- FAQS ---*/
+.faqs-page-top{
+    position: relative;
+    padding: 26px 0 124px 0;
+}
+.faqs-page-top__title{
+    margin-top: 81px;
+    text-align: center;
+}
+.faqs-page-top__img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%,50%);
+    -moz-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    -o-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+}
+.faqs-page-main{
+    margin: 135px 0;
+    text-align: center;
+}
+.faqs-page-main-item{
+    font-family: "Comfortaa-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0052CC;
+}
+.faqs-page-main-item{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 95px;
+}
+.faqs-page-main-item span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.faqs-page-main-item__icon{
+    margin-right: 13px;
+}
+.faqs-page-main-item:hover .faqs-page-main-item__text{
+    text-decoration: underline;
+}
+.faqs-page-main-item__arrow{
+    margin-left: 2px;
+}
+.faqs-page-questions{
+    padding: 124px 0 130px 0;
+}
