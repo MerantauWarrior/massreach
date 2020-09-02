@@ -2503,3 +2503,137 @@ input[type="radio"]{
 .faqs-page-questions{
     padding: 124px 0 130px 0;
 }
+/*--- REGISTRATION ---*/
+.registration{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: table;
+}
+.registration__bg{
+    display: table-cell;
+    vertical-align: middle;
+    width: 460px;
+}
+.registration__content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.registration__content-inner{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+.registration__title{
+    margin-bottom: 17px;
+}
+.registration__form{
+    width: 100%;
+    max-width: 360px;
+}
+.login__title{
+    margin-bottom: 47px;
+    color: #0052CC;
+}
+.label-w-link{
+    display: block;
+}
+.forgot-link{
+    float: right;
+    font-size: 14px;
+    line-height: 14px;
+    color: #0052CC;
+}
+.forgot-link:hover{
+    text-decoration: underline;
+}
+.registration-last{
+    text-align: center;
+}
+.registration-last__top{
+    width: 100%;
+    height: 350px;
+    background: transparent url('../imgs/registration/reg-last-bg.svg') center bottom no-repeat;
+    background-size: cover;
+}
+.registration-last__img{
+    margin: -120px auto 0 auto;
+}
+.registration-last__title{
+    margin-top: 44px;
+}
+.registration-last__text{
+    margin-top: 36px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #071146;
+}
+.registration-last__text-light{
+    margin-top: 21px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #C4C4C4;
+}
+.registration-last__link{
+    display: inline-block;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0052CC;
+}
+.registration-last__link > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+.forgot-not-found__register{
+    margin: 50px 0;
+}
+.registration__title-thanks{
+    margin-right: -60px;
+}
+.registration__thanks-text{
+    margin: 36px 0 33px 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #071146;
+}
+.registration__thanks-btn{
+    margin-top: 60px;
+}
+.registration-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 427px;
+    padding-bottom: 69px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background: #FFFFFF url('../imgs/registration/reg-bg-modal.svg') center top no-repeat;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #B3C1F4;
+    text-align: center;
+}
+.registration-modal__close{
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    cursor: pointer;
+}
+.registration-modal__title{
+    margin: 46px 0 89px 0;
+    color: #FFFFFF;
+}
+.registration-modal__text{
+    max-width: 265px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 24px;
+    color: #071146;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>Login</title>
+  <meta name="description" content="description"/>
+  <meta name="keywords" content="keywords, description"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/ui.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="registration">
+    <div class="registration__bg"><img src="assets/imgs/registration/reg-bg-1.svg" alt=""></div>
+    <div class="registration__content">
+      <div class="registration__content-inner">
+        <h1 class="heading-bm-3 login__title">Вход</h1>
+        <form action="" method="get" class="registration__form">
+          <div class="contacts-form__row">
+            <label for="q2" class="label-contacts">Email*</label>
+            <input type="email" name="q2" id="q2" class="inp" placeholder="email@gmail.com" required>
+          </div>
+          <div class="contacts-form__row">
+            <label for="q4" class="label-contacts label-w-link">Пароль* <a href="#" class="forgot-link">Забыли пароль?</a></label>
+            <div class="password-inp">
+              <input type="password" name="q4" id="q4" class="inp" placeholder="Qwerty1" required>
+              <div class="password-inp__icon"></div>
+            </div>
+          </div>
+          <div class="partner-reg-form__log-reg clear">
+            <div class="partner-reg-form__enter">или <a href="#">Регистрация</a></div>
+            <button class="btn btn-submit partner-reg-form__register" type="submit">Войти<span class="btn__arrow"></span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script src="libs/jquery-1.12.4.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

@@ -19,9 +19,13 @@ $(document).ready(function () {
   $('.help-sidebar-mobile').click(function () {
     $('.help-sidebar').toggleClass('help-sidebar_opened');
   });
-//  Instructions
-  $('.instructions-modal__close').click(function () {
-    $(this).closest('.instructions-modal').hide();
+//  Modal
+  $('.js-modal-close').click(function () {
+    $(this).closest('.js-modal').hide();
+  });
+//  Registration
+  $('.registration-modal__close').click(function () {
+    $(this).closest('.registration-modal').hide();
   });
 //  Contacts
   $('.js-agreement').on('change', function () {

@@ -95,6 +95,10 @@
     .smtp-step__img{
         max-width: 360px;
     }
+    /*Registration*/
+    .registration__bg{
+        width: 40%;
+    }
 }
 @media all and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){}
 @media all and (min-width: 320px) and (max-width: 767px){
@@ -431,5 +435,15 @@
     }
     .faqs-page-main-item{
         margin: 15px 0;
+    }
+    /*registration*/
+    .registration{
+        padding: 30px 15px;
+    }
+    .registration__bg{
+        display: none;
+    }
+    .registration-last__top{
+        height: 200px;
     }
 }
