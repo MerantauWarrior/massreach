@@ -99,6 +99,21 @@
     .registration__bg{
         width: 40%;
     }
+    /*Price*/
+    .prices-users,
+    .prices-users__logos{
+        text-align: center;
+    }
+    .prices-users__title{
+        margin-bottom: 40px;
+    }
+    .prices-users-logo{
+        margin: 10px 30px;
+    }
+    /*Basket*/
+    .basket-table__col, .basket-table__col-1, .basket-table__col-2, .basket-table__col-3, .basket-table__col-4, .basket-table__col-5{
+        padding: 0 15px;
+    }
 }
 @media all and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){}
 @media all and (min-width: 320px) and (max-width: 767px){
@@ -445,5 +460,97 @@
     }
     .registration-last__top{
         height: 200px;
+    }
+    /*prices*/
+    .prices{
+        padding: 60px 0;
+    }
+    .prices-item{
+        margin: 30px 0 0 0;
+    }
+    .prices-users{
+        padding: 60px 0;
+        text-align: center;
+    }
+    .prices-users-logo{
+        margin: 10px 20px;
+    }
+    .prices-users__logos{
+        text-align: center;
+    }
+    .prices-users__title{
+        margin-bottom: 30px;
+    }
+    /*basket*/
+    .basket{
+        padding: 60px 0;
+    }
+    .basket-table__head{
+        display: none;
+    }
+    .basket-table{
+        display: block;
+        padding: 0 15px;
+    }
+    .basket-table-item{
+        text-align: center;
+    }
+    .basket-table__col-1, .basket-table__col-2, .basket-table__col-3, .basket-table__col-4, .basket-table__col-5{
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+    .basket-table__col-3{
+        display: none;
+    }
+    .basket-table-item{
+        border-top: none;
+        border-bottom: 1px solid #B3C1F4;
+    }
+    .basket-table-item:last-child{
+        border-bottom: none;
+    }
+    .basket-table-item__term{
+        display: inline-block;
+        text-align: left;
+    }
+    .basket-table__col-1 a{
+        display: inline-block;
+    }
+    .basket-promocode{
+        float: none;
+        width: 100%;
+    }
+    .basket-total{
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .basket-question__text{
+        max-width: 80%;
+    }
+    .basket-question{
+        float: none;
+        width: 100%;
+    }
+    .basket-bottom__right{
+        float: none;
+        margin: 30px auto 0 auto;
+    }
+    .basket-product,
+    .basket-product__logo,
+    .basket-product__action{
+        display: block;
+    }
+    .basket-product{
+        padding: 15px;
+    }
+    .basket-product__logo,
+    .basket-product__link{
+        margin: 0 auto;
+    }
+    .basket-product__description{
+        margin: 15px 0;
+        padding: 0;
     }
 }

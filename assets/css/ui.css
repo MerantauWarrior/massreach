@@ -204,7 +204,7 @@
     width: 190px;
     height: 50px;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 30px;
     color: #ffffff;
     background-color: #0052CC;
 }
@@ -261,6 +261,7 @@
     height: 6px;
     background-color: #0052CC;
 }
+input[type="radio"]:checked + .label-radio:after,
 input[type="checkbox"]:checked + .label-radio:after{
     display: block;
 }
@@ -288,6 +289,38 @@ input[type="checkbox"]:checked + .label-radio:after{
 }
 .password-inp_show .password-inp__icon{
     background: url("../imgs/general/password-open.svg") no-repeat center center;
+}
+.label-switch{
+    display: block;
+    position: relative;
+    width: 58px;
+    height: 23px;
+    background-color: #0052CC;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.label-switch:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 19px;
+    height: 19px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid #0052CC;
+    background-color: #fff;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.inp-switch:checked + .label-switch:before{
+    left: 0;
 }
 /*Select*/
 .select{
