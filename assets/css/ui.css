@@ -149,6 +149,14 @@
     background-color: #FFCE22;
     z-index: 1;
 }
+.btn-double--cta .btn-double__inner{
+    background-color: #FFCE22;
+    border: 2px solid #FFCE22;
+    color: #071146;
+}
+.btn-double--cta .btn-double__backdrop{
+    background-color: #00A6FF;
+}
 .btn{
     display: inline-block;
     width: 165px;

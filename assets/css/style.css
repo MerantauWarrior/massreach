@@ -392,6 +392,11 @@ input[type="radio"]{
     max-width: 600px;
     margin: 0 auto;
 }
+.product-info__content-text--bigger{
+    font-size: 18px;
+    line-height: 31px;
+    color: #071146;
+}
 .product-info__content{
     margin-top: 50px;
     text-align: center;
@@ -402,10 +407,17 @@ input[type="radio"]{
     margin: 0 auto;
     color: #0052CC;
 }
+.product-info__heading-1--dark{
+    color: #071146;
+}
 .product-info__heading-3{
     width: 100%;
     max-width: 750px;
     margin: 36px auto 48px auto;
+}
+.product-info__heading-3-white{
+    max-width: 720px;
+    color: #FFFFFF;
 }
 .product-info__items{
     margin: 58px 0;
@@ -480,6 +492,9 @@ input[type="radio"]{
     vertical-align: middle;
     width: 50%;
 }
+.product-about__subheading{
+    margin-top: 12px;
+}
 .product-about__description{
     text-align: center;
 }
@@ -530,6 +545,24 @@ input[type="radio"]{
     display: inline-block;
     vertical-align: top;
     margin: 0 11px;
+}
+.product-cta-blue{
+    padding: 123px 0 135px 0;
+    background: #0052CC url('../imgs/products/cta-blue.png') center center no-repeat;
+    text-align: center;
+}
+.product-cta-blue__heading{
+    color: #FFFFFF;
+}
+.product-cta-blue__text{
+    max-width: 555px;
+    margin: 40px auto 0 auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.product-cta-blue__btn{
+    margin: 54px 11px 0 11px;
 }
 .faqs{
     padding: 135px 0;
