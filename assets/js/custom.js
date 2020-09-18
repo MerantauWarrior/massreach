@@ -1,5 +1,14 @@
 $(document).ready(function () {
 
+// Home features
+  if($('.home-features-item__top').length > 0){
+    $('.js-home-feature').click(function () {
+      $('.home-features-item').removeClass('home-features-item_opened');
+      $(this).closest('.home-features-item').addClass('home-features-item_opened');
+      $('.home-features__imgs').css('background-image','url('+$(this).data('img')+')');
+    })
+  }
+
 //  Faqs
   $('.faqs-item__top').click(function () {
     $(this).parent().toggleClass('faqs-item_opened');
