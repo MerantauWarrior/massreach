@@ -581,4 +581,8 @@ input[type="checkbox"]:checked + .label-radio:after{
     .article ul > li{
         display: block;
     }
+    .btn-double,
+    .btn-double__backdrop{
+        max-width: 100%;
+    }
 }

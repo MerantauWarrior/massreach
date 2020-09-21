@@ -3156,6 +3156,18 @@ input[type="radio"]{
     font-size: 21px;
     line-height: 28px;
 }
+.home-features-item__video{
+    display: inline-block;
+    vertical-align: middle;
+}
+.home-features-item__video .home-features-item__title{
+    color: #0052CC;
+}
+.home-features-item__time{
+    font-size: 16px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
 .home-features-item__description{
     display: none;
     margin-top: 6px;
@@ -3425,7 +3437,6 @@ input[type="radio"]{
 .home-tools__more{
     margin-top: 54px;
 }
-
 .home-clients{
     padding: 118px 0 129px 0;
     background-color: #F6F8FD;
@@ -3470,12 +3481,23 @@ input[type="radio"]{
     line-height: 22px;
     color: #071146;
 }
-
 .home-befits{
     overflow: hidden;
 }
+.home-befits__slide.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
 .home-befits__slide{
-    padding: 125px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 125px 0;
+    z-index: 1;
 }
 .home-befits__heading{
     max-width: 650px;

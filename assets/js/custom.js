@@ -1,5 +1,48 @@
 $(document).ready(function () {
 
+// Home benefits
+  if($('.home-befits').length > 0){
+    // $(window).scroll(function() {
+    //   $('.home-befits__slide').each(function( index ) {
+    //     console.log(index);
+    //     var distance = $( this ).offset().top;
+    //     if ( $(window).scrollTop() >= distance ) {
+    //       $( this ).addClass('fixed');
+    //     }else {
+    //       $( this ).removeClass('fixed');
+    //     }
+    //   });
+    // });
+    var $animation_elements = $('.home-befits__slide');
+    var $window = $(window);
+    function check_if_in_view() {
+      var window_height = $window.height();
+      var window_top_position = $window.scrollTop();
+      var window_bottom_position = (window_top_position + window_height);
+      var numslides = $animation_elements.length;
+
+      $.each($animation_elements, function() {
+        var $element = $(this);
+        // console.log(numslides);
+        // console.log($element);
+        // console.log($element.outerHeight());
+        // console.log($animation_elements.index($element));
+        var element_top_position = $element.offset().top;
+
+        if ( window_top_position >= element_top_position) {
+          $('.home-befits').css('padding-top',$element.innerHeight() * ($animation_elements.index($element)+1) +'px');
+          // console.log($element.last());
+          // console.log(($animation_elements.index($element)+1));
+              }else {
+          $element.removeClass('fixed');
+          $('.home-befits').css('padding-top',-$element.innerHeight() * $($animation_elements.index($element)+1) +'px')
+              }
+      });
+    }
+    // $window.on('scroll resize', check_if_in_view);
+    // $window.trigger('scroll');
+  }
+
 // Home features
   if($('.home-features-item__top').length > 0){
     $('.js-home-feature').click(function () {
