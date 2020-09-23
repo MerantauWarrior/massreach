@@ -2,43 +2,63 @@ $(document).ready(function () {
 
 // Home benefits
   if($('.home-befits').length > 0){
-    // $(window).scroll(function() {
-    //   $('.home-befits__slide').each(function( index ) {
-    //     console.log(index);
-    //     var distance = $( this ).offset().top;
-    //     if ( $(window).scrollTop() >= distance ) {
-    //       $( this ).addClass('fixed');
-    //     }else {
-    //       $( this ).removeClass('fixed');
+    // var slides = $('.home-befits__content');
+    // var slideActive = 0;
+    // var lastScrollTop = 0;
+    // $(window).scroll(function(e) {
+    //   var st = window.pageYOffset || document.documentElement.scrollTop;
+    //   if ( $(window).scrollTop() >= $('.home-befits__slide').offset().top ) {
+    //     // $('.wrapper, body').css('overflow','hidden');
+    //     $('.home-befits__slide').addClass('fixed');
+    //     $('.home-befits').css('padding-top',$('.home-befits__slide').innerHeight() +'px');
+    //     if (st > lastScrollTop){
+    //       console.log('down');
+    //       console.log(slides.length);
+    //       console.log(slides.index(slideActive));
+    //       if(slideActive < slides.length-1){
+    //         slideActive++;
+    //         slides.removeClass('active');
+    //         slides.eq(slideActive).addClass('active');
+    //       }
+    //     } else {
+    //       console.log('up');
+    //       console.log(slides.length);
+    //       if(slideActive > 0){
+    //         slideActive--;
+    //         slides.removeClass('active');
+    //         slides.eq(slideActive).addClass('active');
+    //       }
     //     }
-    //   });
+    //   }else {
+    //     $('.home-befits__slide').removeClass('fixed');
+    //     $('.home-befits').css('padding-top',-$('.home-befits__slide').innerHeight() +'px')
+    //   }
+    //   lastScrollTop = st <= 0 ? 0 : st;
     // });
-    var $animation_elements = $('.home-befits__slide');
-    var $window = $(window);
-    function check_if_in_view() {
-      var window_height = $window.height();
-      var window_top_position = $window.scrollTop();
-      var window_bottom_position = (window_top_position + window_height);
-      var numslides = $animation_elements.length;
 
-      $.each($animation_elements, function() {
-        var $element = $(this);
-        // console.log(numslides);
-        // console.log($element);
-        // console.log($element.outerHeight());
-        // console.log($animation_elements.index($element));
-        var element_top_position = $element.offset().top;
-
-        if ( window_top_position >= element_top_position) {
-          $('.home-befits').css('padding-top',$element.innerHeight() * ($animation_elements.index($element)+1) +'px');
-          // console.log($element.last());
-          // console.log(($animation_elements.index($element)+1));
-              }else {
-          $element.removeClass('fixed');
-          $('.home-befits').css('padding-top',-$element.innerHeight() * $($animation_elements.index($element)+1) +'px')
-              }
-      });
-    }
+    // var $animation_elements = $('.home-befits__slide');
+    // var $window = $(window);
+    // function check_if_in_view() {
+    //   var window_height = $window.height();
+    //   var window_top_position = $window.scrollTop();
+    //   var window_bottom_position = (window_top_position + window_height);
+    //   var numslides = $animation_elements.length;
+    //
+    //   $.each($animation_elements, function() {
+    //     var $element = $(this);
+    //     var element_top_position = $element.offset().top;
+    //
+    //     if ( window_top_position >= element_top_position) {
+    //       $('.home-befits').css('padding-top',$element.innerHeight() * ($animation_elements.index($element)+1) +'px');
+    //       $element.addClass('fixed');
+    //       // console.log($element.last());
+    //       // console.log(($animation_elements.index($element)+1));
+    //           }else {
+    //       $element.removeClass('fixed');
+    //       $('.home-befits').css('padding-top',-$element.innerHeight() * $($animation_elements.index($element)+1) +'px')
+    //           }
+    //   });
+    // }
     // $window.on('scroll resize', check_if_in_view);
     // $window.trigger('scroll');
   }

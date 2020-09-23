@@ -3482,6 +3482,7 @@ input[type="radio"]{
     color: #071146;
 }
 .home-befits{
+    width: 100%;
     overflow: hidden;
 }
 .home-befits__slide.fixed{
@@ -3492,12 +3493,19 @@ input[type="radio"]{
     z-index: -1;
 }
 .home-befits__slide{
+    display: table;
+    vertical-align: middle;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
+    min-height: 100vh;
     padding: 125px 0;
     z-index: 1;
+}
+.home-befits__slide > div{
+    display: table-cell;
+    vertical-align: middle;
 }
 .home-befits__heading{
     max-width: 650px;
@@ -3505,7 +3513,11 @@ input[type="radio"]{
     text-align: center;
 }
 .home-befits__content{
+    display: none;
     margin-top: 110px;
+}
+.home-befits__content.active{
+    display: block;
 }
 .home-befits__text{
     float: left;
