@@ -6,7 +6,7 @@
   <title>Home</title>
   <meta name="description" content="description"/>
   <meta name="keywords" content="keywords, description"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
   <link rel="stylesheet" href="assets/css/ui.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/media.css">
@@ -31,20 +31,30 @@
                 <li class="header-menu__list-item"><a href="#" class="header-menu__link header-menu__link_current">О
                   программе</a></li>
                 <li class="header-menu__list-item"><a href="#" class="header-menu__link">Купить</a></li>
-                <li class="header-menu__list-item header-menu__dropdown">
+                <li class="header-menu__list-item has-dropdown">
                   <a href="#" class="header-menu__link"><span>Поддержка</span><span
-                      class="header-menu__dropdown-arrow"></span></a>
-                  <ul class="header-submenu__list">
-                    <li class="header-submenu__list-item"><a href="#" class="header-submenu__link">Контакты</a></li>
-                    <li class="header-submenu__list-item"><a href="#" class="header-submenu__link">Аффилиатская
+                      class="dropdown-arrow"></span></a>
+                  <ul class="dropdown">
+                    <li class="dropdown__item"><a href="#" class="dropdown__link">Контакты</a></li>
+                    <li class="dropdown__item"><a href="#" class="dropdown__link">Аффилиатская
                       программа</a></li>
-                    <li class="header-submenu__list-item"><a href="#" class="header-submenu__link">Техподдержка</a></li>
+                    <li class="dropdown__item"><a href="#" class="dropdown__link">Техподдержка</a></li>
                   </ul>
                 </li>
                 <li class="header-menu__list-item"><a href="#" class="header-menu__link">Блог</a></li>
               </ul>
             </div>
             <div class="header-controls">
+              <div class="lang has-dropdown">
+                <div class="lang__icon"><img src="assets/imgs/general/lang.svg" alt="Langiage:"></div>
+                <div class="lang__value">RU</div>
+                <div class="lang__arrow"><img src="assets/imgs/general/lang-arrow.svg" alt=">"></div>
+                <ul class="dropdown">
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Rусский</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">Українська</a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__link">English</a></li>
+                </ul>
+              </div>
               <a href="#" class="header-controls__enter">Войти</a>
               <a href="#" class="btn header-controls__register"><span>Регистрация</span><span class="btn__arrow"></span></a>
             </div>
@@ -57,7 +67,8 @@
   <div class="home-top">
     <div class="container">
       <h1 class="home-top__heading">Best outreach<br> software for <span id="typeWriter"></span></h1>
-      <p class="home-top__text">MassReach Box — unlimited cold emailing from scratch. Find leads and reach out to your target audience in minutes!</p>
+      <p class="home-top__text">MassReach Box — unlimited cold emailing from scratch. Find leads and reach out to your
+        target audience in minutes!</p>
       <a href="#" class="btn-double">
         <span class="btn-double__inner">Sign up free
           <span class="btn-double__arrow">
@@ -75,10 +86,30 @@
 
   <div class="home-features">
     <div class="container clear">
-      <div class="home-features__imgs" style="background-image: url(assets/imgs/home/home-features-img.png);"></div>
+      <div class="home-features__imgs">
+        <div class="home-features__imgs-item current">
+          <img src="assets/imgs/home/home-features-img.png" alt="img">
+        </div>
+        <div class="home-features__imgs-item">
+          <img src="assets/imgs/home/home-features-img-2.jpg" alt="img">
+        </div>
+        <div class="home-features__imgs-item">
+          <img src="assets/imgs/home/home-features-img.png" alt="img">
+        </div>
+        <div class="home-features__imgs-item">
+          <img src="assets/imgs/home/home-features-img-2.jpg" alt="img">
+        </div>
+        <div class="home-features__imgs-item">
+          <div class="home-features__imgs-item-video">
+            <iframe src="https://www.youtube.com/embed/m-BJePpVEfI" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
       <div class="home-features__list">
         <div class="home-features-item home-features-item_opened">
-          <div class="home-features-item__top js-home-feature" data-img="assets/imgs/home/home-features-img.png">
+          <div class="home-features-item__top js-home-feature">
             <div class="home-features-item__img"><img src="assets/imgs/home/home-features-1.svg" alt="text"></div>
             <div class="home-features-item__title">Potential customers’ data</div>
           </div>
@@ -87,7 +118,7 @@
           </div>
         </div>
         <div class="home-features-item">
-          <div class="home-features-item__top js-home-feature" data-img="assets/imgs/home/home-features-img-2.jpg">
+          <div class="home-features-item__top js-home-feature">
             <div class="home-features-item__img"><img src="assets/imgs/home/home-features-2.svg" alt="text"></div>
             <div class="home-features-item__title">Clean and verified leads</div>
           </div>
@@ -96,7 +127,7 @@
           </div>
         </div>
         <div class="home-features-item">
-          <div class="home-features-item__top js-home-feature" data-img="assets/imgs/home/home-features-img.png">
+          <div class="home-features-item__top js-home-feature">
             <div class="home-features-item__img"><img src="assets/imgs/home/home-features-3.svg" alt="text"></div>
             <div class="home-features-item__title">Thousands of emails in one click</div>
           </div>
@@ -105,7 +136,7 @@
           </div>
         </div>
         <div class="home-features-item">
-          <div class="home-features-item__top js-home-feature" data-img="assets/imgs/home/home-features-img-2.jpg">
+          <div class="home-features-item__top js-home-feature">
             <div class="home-features-item__img"><img src="assets/imgs/home/home-features-4.svg" alt="text"></div>
             <div class="home-features-item__title">24/7 personal tech manager support</div>
           </div>
@@ -114,7 +145,7 @@
           </div>
         </div>
         <div class="home-features-item">
-          <div class="home-features-item__top js-home-feature-video">
+          <div class="home-features-item__top js-home-feature">
             <div class="home-features-item__img"><img src="assets/imgs/home/home-features-5.svg" alt="text"></div>
             <div class="home-features-item__video">
               <div class="home-features-item__title">Watch product demo</div>
@@ -252,16 +283,17 @@
   </div>
 
   <div class="home-befits">
-    <div class="home-befits__slide" style="background-color: #B3C1F4;" data-colors="['#B3C1F4','#B1DEF5','#FEDB8F','#B6E2DF']">
+    <div class="home-befits__slide" style="background-color: #B3C1F4;">
       <div>
         <div class="container-md">
           <h2 class="heading-bm-1 home-befits__heading">MassReach turns cold email into a professional outreach
             campaign</h2>
           <div class="home-befits__slides">
-            <div class="home-befits__content clear">
+            <div class="home-befits__content clear" data-color="#B3C1F4">
               <div class="home-befits__text">
                 <h3 class="home-befits__title heading-bm-2">Find your target audience</h3>
-                <p class="home-befits__description">Apply special filters to find and save emails, names and companies of
+                <p class="home-befits__description">Apply special filters to find and save emails, names and companies
+                  of
                   your
                   potential clients from public sources all over the web as well as on socials.</p>
               </div>
@@ -269,17 +301,18 @@
                 <img src="assets/imgs/home/home-benefits-1.svg" alt="text">
               </div>
             </div>
-            <div class="home-befits__content clear">
+            <div class="home-befits__content clear" data-color="#B1DEF5">
               <div class="home-befits__text">
                 <h3 class="home-befits__title heading-bm-2">Clean & segment prospects list</h3>
-                <p class="home-befits__description">MassReach verifies the unlimited number of emails, so you can sort them
+                <p class="home-befits__description">MassReach verifies the unlimited number of emails, so you can sort
+                  them
                   and manage groups to segment your contacts per campaign.</p>
               </div>
               <div class="home-befits__img">
                 <img src="assets/imgs/home/home-benefits-2.svg" alt="text">
               </div>
             </div>
-            <div class="home-befits__content clear">
+            <div class="home-befits__content clear" data-color="#FEDB8F">
               <div class="home-befits__text">
                 <h3 class="home-befits__title heading-bm-2">Build cold email templates</h3>
                 <p class="home-befits__description">Stop typing the same email again and again, scale your cold email
@@ -289,7 +322,7 @@
                 <img src="assets/imgs/home/home-benefits-3.svg" alt="text">
               </div>
             </div>
-            <div class="home-befits__content clear">
+            <div class="home-befits__content clear" data-color="#B6E2DF">
               <div class="home-befits__text">
                 <h3 class="home-befits__title heading-bm-2">Analyze & improve</h3>
                 <p class="home-befits__description">Monitor the performance of your campaign track deliverability, Open
@@ -312,7 +345,7 @@
       <div class="prices-switch">
         <div class="prices-switch__item">Monthly</div>
         <div class="prices-switch__switch">
-          <input type="checkbox" name="sw" id="sw" class="inp-switch">
+          <input type="checkbox" name="sw" id="sw" class="inp-switch js-prices-checkbox" checked>
           <label for="sw" class="label-switch"></label>
         </div>
         <div class="prices-switch__item prices-switch__item--last">Annual (sale 30%)</div>
@@ -327,9 +360,15 @@
           </div>
           <div class="prices-item__content">
             <div class="prices-item__price">
-              <div class="prices-item__price-currency">$</div>
-              <div class="prices-item__price-value">39</div>
-              <div class="prices-item__price-period">/mo</div>
+              <div class="prices-item__price-mo">
+                <div class="prices-item__price-currency">$</div>
+                <div class="prices-item__price-value">39</div>
+                <div class="prices-item__price-period">/mo</div>
+              </div>
+              <div class="prices-item__price-annual">
+                <div class="prices-item__price-currency">$</div>
+                <div class="prices-item__price-value">439</div>
+              </div>
             </div>
             <ul class="prices-item__list">
               <li>Find leads</li>
@@ -359,9 +398,15 @@
           </div>
           <div class="prices-item__content">
             <div class="prices-item__price">
-              <div class="prices-item__price-currency">$</div>
-              <div class="prices-item__price-value">29</div>
-              <div class="prices-item__price-period">/mo</div>
+              <div class="prices-item__price-mo">
+                <div class="prices-item__price-currency">$</div>
+                <div class="prices-item__price-value">29</div>
+                <div class="prices-item__price-period">/mo</div>
+              </div>
+              <div class="prices-item__price-annual">
+                <div class="prices-item__price-currency">$</div>
+                <div class="prices-item__price-value">139</div>
+              </div>
             </div>
             <ul class="prices-item__list">
               <li>Deliverability</li>
@@ -418,7 +463,8 @@
             <div class="faqs-item__title">What is outreach marketing?</div>
             <div class="faqs-item__arrow"></div>
           </div>
-          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations or
+          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations
+            or
             individuals contacts that have a shared interest in what you or your company has to offer and sending them
             relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc.
             <ul>
@@ -434,7 +480,8 @@
             <div class="faqs-item__title">Where does MassReach extract emails from?</div>
             <div class="faqs-item__arrow"></div>
           </div>
-          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations or
+          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations
+            or
             individuals contacts that have a shared interest in what you or your company has to offer and sending them
             relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc.ри грамотном
             подходе этот способ коммуникации с вашей аудиторией обязательно обеспечит вам высокую отдачу.
@@ -451,7 +498,8 @@
             <div class="faqs-item__title">Can I send cold emails in MassReach demo version?</div>
             <div class="faqs-item__arrow"></div>
           </div>
-          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations or
+          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations
+            or
             individuals contacts that have a shared interest in what you or your company has to offer and sending them
             relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc.
           </div>
@@ -462,7 +510,8 @@
             <div class="faqs-item__title">How reliable are the cold emails?</div>
             <div class="faqs-item__arrow"></div>
           </div>
-          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations or
+          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations
+            or
             individuals contacts that have a shared interest in what you or your company has to offer and sending them
             relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc.
           </div>
@@ -473,7 +522,8 @@
             <div class="faqs-item__title">How does email outreach tool protect my data?</div>
             <div class="faqs-item__arrow"></div>
           </div>
-          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations or
+          <div class="faqs-item__content article">Email outreach marketing is the process of looking for organizations
+            or
             individuals contacts that have a shared interest in what you or your company has to offer and sending them
             relevant cold emails. It is used for direct sales, branding, link building, recruiting, etc.
           </div>
@@ -606,26 +656,60 @@
     var typed = new Typed('#typeWriter', {
       strings: ['sales', 'lead generation', 'link building', 'PR', 'recruiting'],
       loop: true,
-      typeSpeed:70,startDelay:0,backSpeed:60,backDelay:1400,showCursor:!0,cursorChar:"",autoInsertCss:!1,
-      smartBackspace: true // Default value
+      typeSpeed: 70, startDelay: 0, backSpeed: 60, backDelay: 1400, showCursor: !0, cursorChar: "", autoInsertCss: !1,
+      smartBackspace: true
     });
 
-    const slider = $(".home-befits__slides");
-    slider
-      .slick({
+
+    var slider = $(".home-befits__slides");
+    slider.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        infinite:false,
         dots: false,
         arrows: false
       });
-
-    slider.on('wheel', (function(e) {
-      e.preventDefault();
-
+    $('.home-befits__slide').on('wheel', (function(e) {
       if (e.originalEvent.deltaY < 0) {
-        $(this).slick('slickNext');
+        slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+          var color = $('.home-befits__content').eq(nextSlide).data('color');
+          $('.home-befits__slide').css('background-color',color)
+        });
+        slider.slick('slickPrev');
       } else {
-        $(this).slick('slickPrev');
+        slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+          var color = $('.home-befits__content').eq(nextSlide).data('color');
+          $('.home-befits__slide').css('background-color',color)
+        });
+        slider.slick('slickNext');
       }
     }));
+
+    // var slides = $('.home-befits__content');
+    // var slideActive = 0;
+    // var lastScrollTop = 0;
+    // $(window).scroll(function(e) {
+    //   var st = window.pageYOffset || document.documentElement.scrollTop;
+    //   if ( $(window).scrollTop() >= $('.home-befits__slide').offset().top ) {
+    //     // $('.wrapper, body').css('overflow','hidden');
+    //     $('.home-befits__slide').addClass('fixed');
+    //     $('.home-befits').css('padding-top',$('.home-befits__slide').innerHeight() +'px');
+    //     if (st > lastScrollTop){
+    //       if(slideActive < slides.length-1){
+    //         slider.slick('slickNext');
+    //       } else {
+    //         slider.slick('slickPrev');
+    //       }
+    //     }
+    //     console.log(st>lastScrollTop);
+    //   }else {
+    //     $('.home-befits__slide').removeClass('fixed');
+    //     $('.home-befits').css('padding-top',-$('.home-befits__slide').innerHeight() +'px')
+    //   }
+    //   lastScrollTop = st <= 0 ? 0 : st;
+    // });
+
   });
 </script>
 </body>

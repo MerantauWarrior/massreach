@@ -421,9 +421,9 @@
         float: right;
         margin-top: 7px;
     }
-    .header-submenu__list{
-        position: static;
-    }
+    /*.dropdown{*/
+    /*    position: static;*/
+    /*}*/
     /*Instructions*/
     .instructions-top{
         padding: 26px 0 100px 0;

@@ -68,8 +68,23 @@ $(document).ready(function () {
     $('.js-home-feature').click(function () {
       $('.home-features-item').removeClass('home-features-item_opened');
       $(this).closest('.home-features-item').addClass('home-features-item_opened');
-      $('.home-features__imgs').css('background-image','url('+$(this).data('img')+')');
+      $('.home-features__imgs-item').removeClass('current');
+      $('.home-features__imgs-item').eq( $(this).parent().index()).addClass('current');
     })
+  }
+
+// Prices
+  if($('.js-prices-checkbox').length > 0){
+    $('.js-prices-checkbox').on('change', function () {
+      var priceState = $(this).prop('checked');
+      if(priceState === true){
+        $('.prices-item__price-annual').hide();
+        $('.prices-item__price-mo').show();
+      }else {
+        $('.prices-item__price-mo').hide();
+        $('.prices-item__price-annual').show();
+      }
+    });
   }
 
 //  Faqs
