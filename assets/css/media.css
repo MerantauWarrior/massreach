@@ -224,7 +224,24 @@
         min-height: auto;
     }
     .home-befits__slide{
+        display: block;
         padding: 50px 0;
+    }
+    .home-befits__slide > div{
+        display: block;
+    }
+    .home-befits__slides-arrow-prev,
+    .home-befits__slides-arrow-next{
+        top: -60px;
+        left: 50%;
+        right: auto;
+        margin-top: 0;
+    }
+    .home-befits__slides-arrow-prev{
+        margin-left: -60px;
+    }
+    .home-befits__slides-arrow-next{
+        margin-left: 20px;
     }
     /*Partner*/
     .partner-why,
