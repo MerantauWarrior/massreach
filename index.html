@@ -380,9 +380,9 @@
                 <span class="btn-double__arrow">
                   <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
-                        d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
-                        fill=""/>
-                    </svg>
+                      d="M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                      fill=""/>
+                  </svg>
                 </span>
               </span>
               <span class="btn-double__backdrop"></span>
@@ -663,28 +663,47 @@
 
     var slider = $(".home-befits__slides");
     slider.slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        draggable: true,
-        infinite:false,
-        dots: false,
-        arrows: false
-      });
-    $('.home-befits__slide').on('wheel', (function(e) {
-      if (e.originalEvent.deltaY < 0) {
-        slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
-          var color = $('.home-befits__content').eq(nextSlide).data('color');
-          $('.home-befits__slide').css('background-color',color)
-        });
-        slider.slick('slickPrev');
-      } else {
-        slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
-          var color = $('.home-befits__content').eq(nextSlide).data('color');
-          $('.home-befits__slide').css('background-color',color)
-        });
-        slider.slick('slickNext');
-      }
-    }));
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: true,
+      infinite:false,
+      dots: false,
+      arrows: true,
+      prevArrow: "<div class=\"home-befits__slides-arrow-prev\">\n" +
+        "              <svg width=\"16\" height=\"8\" viewBox=\"0 0 16 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n" +
+        "                <path\n" +
+        "                    d=\"M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z\"\n" +
+        "                    fill=\"#000000\"/>\n" +
+        "              </svg>\n" +
+        "            </div>",
+      nextArrow: "<div class=\"home-befits__slides-arrow-next\">\n" +
+        "              <svg width=\"16\" height=\"8\" viewBox=\"0 0 16 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n" +
+        "                <path\n" +
+        "                    d=\"M15.3536 4.35355C15.5488 4.15829 15.5488 3.84171 15.3536 3.64645L12.1716 0.464467C11.9763 0.269205 11.6597 0.269205 11.4645 0.464467C11.2692 0.659729 11.2692 0.976312 11.4645 1.17157L14.2929 4L11.4645 6.82843C11.2692 7.02369 11.2692 7.34027 11.4645 7.53553C11.6597 7.7308 11.9763 7.7308 12.1716 7.53553L15.3536 4.35355ZM-4.37114e-08 4.5L15 4.5L15 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z\"\n" +
+        "                    fill=\"#000000\"/>\n" +
+        "              </svg>\n" +
+        "            </div>"
+    });
+    slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+      var color = $('.home-befits__content').eq(nextSlide).data('color');
+      $('.home-befits__slide').css('background-color',color)
+    });
+
+    // $('.home-befits__slide').on('wheel', (function(e) {
+    //   if (e.originalEvent.deltaY < 0) {
+    //     slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    //       var color = $('.home-befits__content').eq(nextSlide).data('color');
+    //       $('.home-befits__slide').css('background-color',color)
+    //     });
+    //     slider.slick('slickPrev');
+    //   } else {
+    //     slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    //       var color = $('.home-befits__content').eq(nextSlide).data('color');
+    //       $('.home-befits__slide').css('background-color',color)
+    //     });
+    //     slider.slick('slickNext');
+    //   }
+    // }));
 
     // var slides = $('.home-befits__content');
     // var slideActive = 0;

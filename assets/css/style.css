@@ -3590,6 +3590,41 @@ input[type="radio"]{
     padding: 125px 0;
     z-index: 1;
 }
+.home-befits__slides-arrow-prev,
+.home-befits__slides-arrow-next{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.home-befits__slides-arrow-prev{
+    left: -60px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.home-befits__slides-arrow-next{
+    right: -60px;
+}
+.home-befits__slides-arrow-prev svg,
+.home-befits__slides-arrow-next svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 .home-befits__slide > div{
     display: table-cell;
     vertical-align: middle;
